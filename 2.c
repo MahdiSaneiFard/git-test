@@ -3,6 +3,8 @@
 
 int main(void)
 {
+
+    //first part
     float first_number = get_float("write the first number :\n");
     float secund_number = get_float("wirte the secound number :\n");
 
@@ -16,6 +18,8 @@ int main(void)
     }
     else
     printf("you enterd same numbers\n");
+
+    //second part
     char answer = get_char("do you agree?(Y/N) \n");
     if (answer == 'Y' || answer == 'y')
     printf("you are right!\n");
@@ -23,6 +27,15 @@ int main(void)
     printf("you are roung\n");
     else
     printf("somthing went roung\n");
+
+    // thierd part
+    int Woof_counter = get_int("command the dog to wooof how many time :\n");
+
+     while (Woof_counter >= 1)
+     {
+        printf("woof\n");
+        Woof_counter--;
+     }
 
 
 
