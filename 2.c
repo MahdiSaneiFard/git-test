@@ -17,9 +17,9 @@ int main(void)
     else
     printf("you enterd same numbers\n");
     char answer = get_char("do you agree?(Y/N) \n");
-    if (answer == 'Y' || 'y')
+    if (answer == 'Y' || answer == 'y')
     printf("you are right!\n");
-    else if (answer == 'N' || 'n')
+    else if (answer == 'N' || answer == 'n')
     printf("you are roung\n");
     else
     printf("somthing went roung\n");
