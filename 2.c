@@ -41,7 +41,8 @@ int main(void)
      int fist_number = get_int("give us your first number:\n");
      int second_number = get_int("give us your second number:\n");
 
-     printf ("%i", cal(fist_number, second_number));
+     int z = cal(fist_number, second_number);
+     printf ("%i", z);
      printf ("\n");
 
 
