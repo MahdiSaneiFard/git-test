@@ -41,12 +41,12 @@ int main(void)
      int fist_number = get_int("give us your first number:\n");
      int second_number = get_int("give us your second number:\n");
 
-     cal();
+     cal(fist_number,second_number);
      printf ("%i", z);
 
 
 }
-int cal(void)
+int cal(int fist_number_cal , int second_number_cal)
 {
-    return int z = fist_number + second_number;
+    return fist_number + second_number;
 }
