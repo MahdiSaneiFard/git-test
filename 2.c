@@ -3,8 +3,8 @@
 
 int main(void)
 {
-    float first_number = get_int("write the first number :\n");
-    float secund_number = get_int ("wirte the secound number :\n");
+    float first_number = get_float("write the first number :\n");
+    float secund_number = get_float("wirte the secound number :\n");
 
     if (first_number > secund_number)
     {
