@@ -3,12 +3,12 @@
 
 int main(void)
 {
-    int first_number = get_int("write the first number :\n");
-    int secund_number = get_int ("wirte the secound number :\n");
+    float first_number = get_int("write the first number :\n");
+    float secund_number = get_int ("wirte the secound number :\n");
 
     if (first_number > secund_number)
     {
-        printf("%d is biger then %d\n", first_number, secund_number);
+        printf("%f is biger then %d\n", first_number, secund_number);
     }
     else if(first_number < secund_number)
     {
