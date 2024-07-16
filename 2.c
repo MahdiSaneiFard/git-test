@@ -36,8 +36,6 @@ int main(void)
         printf("woof\n");
         Woof_counter--;
      }
-     while(true)
-     printf("bye");
 
 
 }
