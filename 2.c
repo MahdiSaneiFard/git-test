@@ -42,7 +42,7 @@ int main(void)
      int second_number = get_int("give us your second number:\n");
 
      cal();
-     printf ("%i", z);
+     printf ("%i", zz   z`);
 
 
 }
