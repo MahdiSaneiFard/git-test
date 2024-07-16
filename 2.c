@@ -8,12 +8,12 @@ int main(void)
 
     if (first_number > secund_number)
     {
-        ptintf("%d is biger then %d\n", first_number, secund_number);
+        printf("%d is biger then %d\n", first_number, secund_number);
     }
     else if(first_number < secund_number)
     {
-        printf("%d is biger then %d\n",secund_number,first_number);
+        printf("%d is biger then %d\n", secund_number, first_number);
     }
     else
-    printf("you enterd same numbers")
+    printf("you enterd same numbers");
 }
