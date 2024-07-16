@@ -16,4 +16,15 @@ int main(void)
     }
     else
     printf("you enterd same numbers\n");
+    char answer = get_char("do you agree?(y/n) \n");
+    if (answer == 'Y')
+    printf("you are right!\n");
+    else if (answer == 'n')
+    printf("you are roung");
+    else
+    printf("somthing went roung");
+
+
+
+
 }
