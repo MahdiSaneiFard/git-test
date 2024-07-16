@@ -15,5 +15,5 @@ int main(void)
         printf("%d is biger then %d\n", secund_number, first_number);
     }
     else
-    printf("you enterd same numbers");
+    printf("you enterd same numbers\n");
 }
