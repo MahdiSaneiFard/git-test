@@ -36,6 +36,14 @@ int main(void)
         printf("woof\n");
         Woof_counter--;
      }
+     // calculater fourth part
+     int fist_number = get_int("give us your first number:\n");
+     int second_number = get_int("give us your second number:\n");
 
+     printf ("%i",);
 
+}
+int cal(int i)
+{
+    fist_number + second_number
 }
