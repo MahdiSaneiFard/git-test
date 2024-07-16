@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
+int cal(void);
 int main(void)
 {
 
@@ -40,7 +41,7 @@ int main(void)
      int fist_number = get_int("give us your first number:\n");
      int second_number = get_int("give us your second number:\n");
 
-     cal()
+     cal();
      printf ("%i", z);
 
 
