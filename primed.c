@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <cs50.h>
 
 int main(void)
 {
@@ -10,5 +11,5 @@ int main(void)
 }
 void f(int l)
 {
-    for (l; )
+    for (l; l)
 }
