@@ -15,6 +15,9 @@ void f(int l)
     for (int i=l; i > 0; i--)
     {
         printf(" ");
+    }
+    for (int i=l; i > 0; i--)
+    {
         printf("#");
     }
     printf("\n");
