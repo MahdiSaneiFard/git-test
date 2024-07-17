@@ -40,9 +40,7 @@ int main(void)
      // calculater fourth part
      int fist_number = get_int("give us your first number:\n");
      int second_number = get_int("give us your second number:\n");
-
-     int z = cal(fist_number, second_number);
-     printf ("%i", z);
+     printf ("%i", cal(fist_number, second_number));
      printf ("\n");
 
 
