@@ -2,7 +2,7 @@
 #include <cs50.h>
 
 int cal(int fist_number_cal , int second_number_cal);
-string mario(int c);
+void mario(int c);
 int main(void)
 {
 
@@ -49,12 +49,14 @@ int main(void)
 
 }
 
-string mario(int c)
+void mario(int c)
 {
     while (c > 0)
     {
-    return printf("?\n");
+    printf("?");
+    c--;
     }
+    printf("\n");
 }
 int cal(int fist_number_cal , int second_number_cal)
 {
