@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
 
-void g(int i, int j);
 void f(int x);
 int cal(int fist_number_cal , int second_number_cal);
 void mario(int c);
@@ -65,7 +64,7 @@ int main(void)
      int your_age = get_int("your age please : ");
      do
      {
-        g(your_number , your_age );
+        int your_number = get_int("your number please : ");
      }
      while (your_number < 10000);
      printf("tanke you for your time %s your information seved as order of \n", your_name);
@@ -94,8 +93,3 @@ int cal(int fist_number_cal , int second_number_cal)
     return fist_number_cal + second_number_cal;
 }
 
-void g(int i, int j)
-{
-    int i = get_int("your number please : ");
-    int j = get_int("your age please : ");
-}
