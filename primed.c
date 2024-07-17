@@ -3,9 +3,8 @@
 int main(void)
 {
 int n = 4;
-for (int i = n; i>0; i--)
+for (int i = n; i>0; i--,n--)
 {
-    n--;
     for (int j=n;j<i++;j++)
     {
         printf("#");
