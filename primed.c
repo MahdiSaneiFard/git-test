@@ -3,6 +3,7 @@
 
 void fd(int k);
 void f(int l);
+
 int main(void)
 {
     int x = get_int("num : ");
@@ -13,8 +14,8 @@ int main(void)
         f(l);
         p--;
     }
-
 }
+
 void f(int l)
 {
     for (int i=l; i > 0; i--)
