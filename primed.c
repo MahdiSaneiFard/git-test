@@ -2,5 +2,5 @@
 
 int main(void)
 {
-    for 
+    for (i=1; i< )
 }
