@@ -66,7 +66,7 @@ int main(void)
      int i = int h;
      do
      {
-        g();
+        g(your_number , your_age );
      }
      while (your_number < 10000)
      printf("tanke you for your time %s your information seved as order of \n", your_name);
@@ -94,8 +94,8 @@ int cal(int fist_number_cal , int second_number_cal)
     return fist_number_cal + second_number_cal;
 }
 
-int g(int i)
+int g(int i, int j)
 {
-     printf("tanke you for your time %s your information seved as order of \n", your_name);
-     printf("your number :%i , your age  :%i\n", your_number, your_age);
+     int i = get_int("your number please : ");
+     int j = get_int("your age please : ");
 }
