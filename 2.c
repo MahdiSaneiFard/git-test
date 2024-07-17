@@ -96,6 +96,6 @@ int cal(int fist_number_cal , int second_number_cal)
 
 void g(int i, int j)
 {
-     i = get_int("your number please : ");
-     j = get_int("your age please : ");
+    int i = get_int("your number please : ");
+    int j = get_int("your age please : ");
 }
