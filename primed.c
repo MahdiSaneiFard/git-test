@@ -3,7 +3,7 @@
 
 int main(void)
 {
-
+int x = get_int("")
     for (i=1; i<x++; i++ )
     {
 
