@@ -8,8 +8,8 @@ int main(void)
     int x = get_int("num : ");
     for (int l=1; l<x+1; l++)
     {
+        fd(0);
         f(l);
-        fd(l-1);
     }
 
 }
@@ -23,5 +23,6 @@ void f(int l)
 }
 void fd(int l)
 {
+    for(int k =0)
     printf(" a ");
 }
