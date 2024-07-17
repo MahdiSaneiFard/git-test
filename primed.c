@@ -2,5 +2,12 @@
 
 int main(void)
 {
-    for (i=1; i< )
+    for (i=1; i<x++; i++ )
+    {
+
+    }
+}
+void f(int l)
+{
+    
 }
