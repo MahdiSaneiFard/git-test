@@ -9,5 +9,5 @@ int main(void)
 }
 void f(int l)
 {
-    
+    for (l=)
 }
