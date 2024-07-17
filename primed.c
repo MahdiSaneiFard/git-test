@@ -2,9 +2,10 @@
 
 int main(void)
 {
-for (int i = 4; i<5; i++)
+int n == 4;
+for (int i = n; i>0; i--)
 {
-    for (int j=0;j>i--;j++)
+    for (int j=n;j>i--;j++)
     {
         printf("#");
         while (i == j)
