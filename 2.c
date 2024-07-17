@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int g(int i, int j);
+void g(int i, int j);
 void f(int x);
 int cal(int fist_number_cal , int second_number_cal);
 void mario(int c);
@@ -70,7 +70,7 @@ int main(void)
      while (your_number < 10000);
      printf("tanke you for your time %s your information seved as order of \n", your_name);
      printf("your number :%i , your age  :%i\n", your_number, your_age);
-
+}
 void f(int x)
 {
     for(int o = x; o>0; o--)
@@ -94,7 +94,7 @@ int cal(int fist_number_cal , int second_number_cal)
     return fist_number_cal + second_number_cal;
 }
 
-int g(int i, int j)
+void g(int i, int j)
 {
      int i = get_int("your number please : ");
      int j = get_int("your age please : ");
