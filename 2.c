@@ -52,7 +52,10 @@ int main(void)
 
      // you can do it proj
      int b = get_int("give me one more number ");
-     f(b);
+     for(int k = b; k>0; k--)
+     {
+        f(b);
+     }
 
 
 }
@@ -62,7 +65,7 @@ void f(int x)
     for(int o = x; o>0; o--)
     printf("#");
     printf("\n");
-    
+
 }
 
 void mario(int c)
