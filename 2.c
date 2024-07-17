@@ -67,7 +67,7 @@ int main(void)
      {
         g(your_number , your_age );
      }
-     while (your_number < 10000)
+     while (your_number < 10000);
      printf("tanke you for your time %s your information seved as order of \n", your_name);
      printf("your number :%i , your age  :%i\n", your_number, your_age);
 
