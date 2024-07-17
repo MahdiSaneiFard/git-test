@@ -50,10 +50,12 @@ int main(void)
      mario(blocks);
 
      // you can do it proj
-     
+
 
 
 }
+
+void 
 
 void mario(int c)
 {
