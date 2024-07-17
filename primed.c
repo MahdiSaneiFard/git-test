@@ -13,12 +13,13 @@ int x = get_int("num : ");
 }
 void f(int l,int p)
 {
-    for (int i=p; i > 0; i--)
-    {
-        printf(" ");
-    }
     for (int i=l; i > 0; i--)
     {
+
+        for (int i=p; i > 0; i--)
+        {
+            printf(" ");
+        }
         printf("#");
     }
     printf("\n");
