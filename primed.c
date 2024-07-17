@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
+void fd(int l);
 void f(int l);
 int main(void)
 {
@@ -8,6 +9,7 @@ int main(void)
     for (int l=1; l<x+1; l++)
     {
         f(l);
+        fd(l-1);
     }
 
 }
@@ -19,4 +21,7 @@ void f(int l)
     }
     printf("\n");
 }
-
+void fd(int l)
+{
+    printf(" a ");
+}
