@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
+void f(int x);
 int cal(int fist_number_cal , int second_number_cal);
 void mario(int c);
 int main(void)
@@ -50,14 +51,16 @@ int main(void)
      mario(blocks);
 
      // you can do it proj
-
+     int b = get_int("give me one more number ");
+     f(b);
 
 
 }
 
 void f(int x)
 {
-    for(x; x>0; x--)
+    for(int o = x; o>0; o--)
+    printf("#");
 }
 
 void mario(int c)
