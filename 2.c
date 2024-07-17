@@ -1,11 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int g(int i)
-{
-         printf("tanke you for your time %s your information seved as order of \n", your_name);
-     printf("your number :%i , your age  :%i\n", your_number, your_age);
-}
+int g(int i);
 void f(int x);
 int cal(int fist_number_cal , int second_number_cal);
 void mario(int c);
@@ -65,6 +61,7 @@ int main(void)
      // contact
 
      string your_name = get_string("your name please : ");
+     g
      int i = int h;
      do
      {
@@ -92,4 +89,10 @@ void mario(int c)
 int cal(int fist_number_cal , int second_number_cal)
 {
     return fist_number_cal + second_number_cal;
+}
+
+int g(int i)
+{
+     printf("tanke you for your time %s your information seved as order of \n", your_name);
+     printf("your number :%i , your age  :%i\n", your_number, your_age);
 }
