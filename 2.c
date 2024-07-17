@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int g(int i);
+int g(int i, int j);
 void f(int x);
 int cal(int fist_number_cal , int second_number_cal);
 void mario(int c);
@@ -63,7 +63,6 @@ int main(void)
      string your_name = get_string("your name please : ");
      int your_number = get_int("your number please : ");
      int your_age = get_int("your age please : ");
-     int i = int h;
      do
      {
         g(your_number , your_age );
