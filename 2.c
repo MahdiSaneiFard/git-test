@@ -61,6 +61,8 @@ void f(int x)
 {
     for(int o = x; o>0; o--)
     printf("#");
+    printf("\n");
+    
 }
 
 void mario(int c)
