@@ -11,7 +11,7 @@ int x = get_int("num : ");
 }
 void f(int l)
 {
-    for (l=0; l<x; l++)
+    for (int l=0; l<x; l++)
     printf("#");
 }
 
