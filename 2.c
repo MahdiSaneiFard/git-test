@@ -2,6 +2,7 @@
 #include <cs50.h>
 
 int cal(int fist_number_cal , int second_number_cal);
+string mario(int c);
 int main(void)
 {
 
@@ -42,9 +43,18 @@ int main(void)
      int second_number = get_int("give us your second number:\n");
      printf ("%i", cal(fist_number, second_number));
      printf ("\n");
-
+     // mario proj
+     int blocks = get_int("how many blocks do you want ? \n");
+     mario(blocks);
 
 }
+
+string mario(int c)
+{
+    while (c > 0)
+    printf("?\n");
+}
+
 int cal(int fist_number_cal , int second_number_cal)
 {
     return fist_number_cal + second_number_cal;
