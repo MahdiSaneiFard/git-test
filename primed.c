@@ -8,9 +8,10 @@ for (int i = 0; i<5; i++)
     for (int j=0;j<i++;j++)
     {
         printf("#");
-        while (i=j)
+        i += i;
+        while (i == j)
         {
-            pritnf("\n")
+            printf("\n");
         }
     }
 }
