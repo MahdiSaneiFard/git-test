@@ -2,9 +2,11 @@
 
 int main(void)
 {
-for (int i = 3; i>0; i--)
+for (int i = 5; i>0; i--)
 {
-    for (int j=i;j>0;j--)
+    printf("\n");
+    i++;
+    for (int j=i--;j>0;j--)
     {
         printf("#");
     }
