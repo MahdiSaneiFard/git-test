@@ -8,7 +8,7 @@ for (int i = 0; i<5; i++)
     for (int j=0;j<i++;j++)
     {
         printf("#");
-        i += i;
+        i += 2;
         while (i == j)
         {
             printf("\n");
