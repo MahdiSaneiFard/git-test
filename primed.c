@@ -2,6 +2,7 @@
 
 int main(void)
 {
+
     for (i=1; i<x++; i++ )
     {
 
@@ -9,5 +10,5 @@ int main(void)
 }
 void f(int l)
 {
-    for (l=)
+    for (l; )
 }
