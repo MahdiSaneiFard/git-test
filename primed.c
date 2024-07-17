@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include <cs50.h>
 
-void fd(int l);
+void fd(int k);
 void f(int l);
 int main(void)
 {
-    int p=0;
     int x = get_int("num : ");
     for (int l=1; l<x+1; l++)
+    int p=l-1;
     {
         fd(p);
         f(l);
-        p++;
+        p--;
     }
 
 }
@@ -25,6 +25,6 @@ void f(int l)
 }
 void fd(int k)
 {
-    for(int k =0)
-    printf(" a ");
+    for(int o = k;0<o;o--)
+    printf(" ");
 }
