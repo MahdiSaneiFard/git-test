@@ -69,7 +69,7 @@ int main(void)
 
      }
      else
-
+     
 }
 
 void f(int x)
