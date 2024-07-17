@@ -52,9 +52,10 @@ int main(void)
 string mario(int c)
 {
     while (c > 0)
-    printf("?\n");
+    {
+    return printf("?\n");
+    }
 }
-
 int cal(int fist_number_cal , int second_number_cal)
 {
     return fist_number_cal + second_number_cal;
