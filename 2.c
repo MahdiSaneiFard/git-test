@@ -58,7 +58,6 @@ int main(void)
      }
 
      // contact
-
      string your_name = get_string("your name please : ");
      int your_number;
      do
