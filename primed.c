@@ -5,11 +5,13 @@ void fd(int l);
 void f(int l);
 int main(void)
 {
+    int p=0;
     int x = get_int("num : ");
     for (int l=1; l<x+1; l++)
     {
-        fd(0);
+        fd(p);
         f(l);
+        p++;
     }
 
 }
@@ -21,7 +23,7 @@ void f(int l)
     }
     printf("\n");
 }
-void fd(int l)
+void fd(int k)
 {
     for(int k =0)
     printf(" a ");
