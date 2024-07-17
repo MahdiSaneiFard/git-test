@@ -2,10 +2,10 @@
 
 int main(void)
 {
-for (int i = 1; i<5; i++)
+for (int i = 0; i<5; i++)
 {
     printf("\n");
-    for (int j=0;j<i;j++)
+    for (int j=0;j<i++;j++)
     {
         printf("#");
         while (i == j)
