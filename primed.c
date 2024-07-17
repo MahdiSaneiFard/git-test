@@ -6,8 +6,8 @@ void f(int l);
 int main(void)
 {
     int x = get_int("num : ");
+    int p = x-1;
     for (int l=1; l<x+1; l++)
-    int p=l-1;
     {
         fd(p);
         f(l);
