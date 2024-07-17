@@ -57,6 +57,18 @@ int main(void)
         f(b);
      }
 
+     // contact
+     string your_name = get_string("your name please : ");
+     int your_number = get_int("your number please : ");
+     int your_age = get_int("your age please : ");
+
+     if (your_number > 1000000)
+     {
+             printf("tanke you for your time %s your information seved as order of \n", your_name);
+             printf("your number :%i , your age  :%i\n", your_number, your_age);
+
+     }
+     else
 
 }
 
