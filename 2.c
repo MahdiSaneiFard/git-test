@@ -55,7 +55,10 @@ int main(void)
 
 }
 
-void 
+void f(int x)
+{
+    for(x; x>0; x--)
+}
 
 void mario(int c)
 {
