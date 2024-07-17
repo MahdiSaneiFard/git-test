@@ -4,7 +4,7 @@ int main(void)
 {
 for (int i = 4; i<5; i++)
 {
-    for (int j=0;j>i--;j++,i--)
+    for (int j=0;j>i--;j++)
     {
         printf("#");
         while (i == j)
