@@ -1,17 +1,22 @@
 #include <stdio.h>
 #include <cs50.h>
 
+void f(int l);
 int main(void)
 {
 int x = get_int("num : ");
-    for (int i=1; i<x++; i++ )
+    for (int l=1; l<x+1; l++)
     {
-        f(x);
+        f(l);
     }
 }
 void f(int l)
 {
-    for (int l=0; l<x; l++)
-    printf("#");
+    for (int i=l; i > 0; i--)
+    {
+        printf(" ");
+        printf("#");
+    }
+    printf("\n");
 }
 
