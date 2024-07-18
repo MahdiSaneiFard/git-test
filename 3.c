@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
-
+int leghte = 3;
 int main(void)
 {
     for (int i = 0 ;i < leghte; i++)
