@@ -5,7 +5,6 @@ int leghte = 4;
 int score[] = {4 , 3 ,2 ,5};
 int main(void)
 {
-    int score[leghte];
     for (int i = 0 ;i < leghte; i++)
     int score[i]
     ptintf("%f", sum(leghte) / (float) leghte);
