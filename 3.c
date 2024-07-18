@@ -11,7 +11,7 @@ int main(void)
     {
         score[i] = get_int("score :");
     }
-    printf("%f", sum(leghte) / leghte);
+    printf("%f", sum(leghte) / (float) leghte);
 }
 int sum(int j)
 {
