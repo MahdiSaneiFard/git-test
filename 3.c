@@ -3,7 +3,7 @@
 
 int leghte = 3;
 
-int sum(int j);
+int sum(int j,int score[]);
 int main(void)
 {
     int score[leghte];
@@ -13,8 +13,9 @@ int main(void)
     }
     printf("%f", sum(leghte) / (float) leghte);
 }
-int sum(int j)
+int sum(int j,int score[])
 {
+    int a = 0;
     for(j =0 ; j < leghte--; j++ )
-    return score[j++] = score[j++] + score[j];
+    return a = a + score[j];
 }
