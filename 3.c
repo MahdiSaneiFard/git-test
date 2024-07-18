@@ -1,4 +1,5 @@
 int leghte = 4;
+int score = {4 ,3 ,2};
 #include <stdio.h>
 #include <cs50.h>
 
