@@ -11,5 +11,6 @@ int main(void)
 }
 int sum()
 {
-    for()
+    for(int j =0 ; j < leghte; j++ )
+    score[j++] +=
 }
