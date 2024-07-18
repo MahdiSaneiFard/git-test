@@ -1,4 +1,4 @@
-int score[];
+int score[leghte];
 #include <stdio.h>
 #include <cs50.h>
 
