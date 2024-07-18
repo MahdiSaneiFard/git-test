@@ -4,9 +4,8 @@ int leghte;
 
 int main(void)
 {
-    int score[leghte];
     for (int i = 0 ;i < leghte; i++)
-    score[i] = get_int("score :");
+    int score[i] = get_int("score :");
     ptintf("%f", sum(leghte) / (float) leghte);
 }
 int sum(int o)
