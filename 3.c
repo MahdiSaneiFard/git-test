@@ -15,6 +15,6 @@ int main(void)
 }
 int sum(int j)
 {
-    for(int j =0 ; j < leghte; j++ )
+    for(j =0 ; j < leghte; j++ )
     score[j] += score[j];
 }
