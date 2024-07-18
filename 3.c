@@ -7,7 +7,9 @@ int sum(int j);
 int main(void)
 {
     for (int i = 0 ;i < leghte; i++)
-    int score[i] = get_int("score :")
+    {
+        int score[i] = get_int("score :");
+    }
     ptintf("%f", sum(int leghte)  (float) leghte);
 }
 int sum(int j)
