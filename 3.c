@@ -6,11 +6,12 @@ int leghte = 3;
 int sum(int j);
 int main(void)
 {
+    int score[leghte];
     for (int i = 0 ;i < leghte; i++)
     {
-        int score[i] = get_int("score :");
+        score[i] = get_int("score :");
     }
-    ptintf("%f", sum(int leghte)  (float) leghte);
+    printf("%f", sum(leghte) / leghte);
 }
 int sum(int j)
 {
