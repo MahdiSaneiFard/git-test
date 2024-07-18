@@ -6,7 +6,7 @@ int main(void)
 {
     int score[leghte];
     for (int i = 0 ;i < leghte; i++)
-    int score[i] = get_int("score :");
+    score[i] = get_int("score :");
     ptintf("%i", sum(leghte) / (float) leghte);
 }
 int sum(int o)
