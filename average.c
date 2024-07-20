@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-int sum(int vary,int scores[]);
+float sum(int vary,int scores[]);
 int main(void)
 {
     int l = get_int("how meny number you have :");
