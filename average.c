@@ -1,7 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
-float sum(int vary,float scores[]);
+float sum(int vary,float scores);
 int main(void)
 {
     int l = get_int("how meny number you have :");
@@ -13,8 +13,9 @@ int main(void)
     float g = sum(l , score);
     printf("your average is %f\n", g / l );
 }
-float sum(int vary,float scores[])
+float sum(int vary,float scores)
 {
+    scores[vary];
     float x=0;
     for(int i = 0; i < vary; i++)
     x += scores[i];
