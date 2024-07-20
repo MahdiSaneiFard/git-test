@@ -11,7 +11,7 @@ int main(void)
         score[i] = get_float("your score :");
     }
     float g = sum(l , score);
-    printf("your average is %f\n", g / (float) l );
+    printf("your average is %f\n", g / l );
 }
 float sum(int vary,float scores[])
 {
