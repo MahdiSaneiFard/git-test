@@ -15,7 +15,7 @@ int main(void)
 }
 float sum(int vary,int scores[])
 {
-    int x=0;
+    float x=0;
     for(int i = 0; i < vary; i++)
     x += scores[i];
     return x;
