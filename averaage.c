@@ -6,7 +6,7 @@ int main(void)
 int score[];
     for(int i =0;i < l; i++)
     {
-        int score[] = get_int("your score :");
+        score[i] = get_int("your score :");
     }
 int g = sum(l , score[]);
 printf("%i", g / (float) l )
