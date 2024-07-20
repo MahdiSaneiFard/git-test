@@ -10,10 +10,10 @@ int main(void)
     {
         score[i] = get_float("your score :");
     }
-    int g = sum(l , score);
+    float g = sum(l , score);
     printf("your average is %f\n", g / (float) l );
 }
-int sum(int vary,int scores[])
+float sum(int vary,int scores[])
 {
     int x=0;
     for(int i = 0; i < vary; i++)
