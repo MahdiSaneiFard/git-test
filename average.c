@@ -5,7 +5,7 @@ int sum(int vary,int scores[]);
 int main(void)
 {
     float l = get_int("how meny number you have :");
-    float score[l];
+    int score[l];
     for(int i =0;i < l; i++)
     {
         score[i] = get_int("your score :");
