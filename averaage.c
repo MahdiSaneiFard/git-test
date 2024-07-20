@@ -1,9 +1,9 @@
 #include <cs50.h>
 #include <stdio.h>
+int score[];
 int l = 11;
 int main(void)
 {
-int score[];
     for(int i =0;i < l; i++)
     {
         score[i] = get_int("your score :");
