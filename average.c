@@ -9,12 +9,13 @@ int main(void)
     {
         score[i] = get_int("your score :");
     }
-    int g = sum(l , score[l]);
-    printf("%i", g / (float) l )
+    int g = sum(l , score);
+    printf("%f", g / (float) l );
 }
 int sum(int vary,int scores[])
 {
     int x=0;
     for(int i = 0; i < l; i++)
-    x += socres[i]
+    x += scores[i];
+    return x;
 }
