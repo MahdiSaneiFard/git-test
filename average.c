@@ -4,8 +4,8 @@
 int sum(int vary,int scores[]);
 int main(void)
 {
-    int l = get_int("how meny number you have :");
-    int score[l];
+    float l = get_int("how meny number you have :");
+    float score[l];
     for(int i =0;i < l; i++)
     {
         score[i] = get_int("your score :");
@@ -13,7 +13,7 @@ int main(void)
     int g = sum(l , score);
     printf("your average is %f\n", g / (float) l );
 }
-int sum(int vary,int scores[])
+int sum(int vary,float scores[])
 {
     int x=0;
     for(int i = 0; i < vary; i++)
