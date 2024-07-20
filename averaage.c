@@ -2,6 +2,7 @@
 #include <stdio.h>
 int score[];
 int l = 11;
+int sum(int vary,int scores[]);
 int main(void)
 {
     for(int i =0;i < l; i++)
