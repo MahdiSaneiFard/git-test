@@ -5,11 +5,12 @@ int leghte = 5;
 int array[5] = {1, 2, 3, 4, 5};
 
 void f(int l);
+void sum(int l);
 int main(void)
 {
     for(int i=1; i<=leghte; i++)
     {
-        f(i);
+        sum(i);
     }
 }
 void f(int l)
@@ -22,9 +23,9 @@ void f(int l)
     printf("\n");
     return;
 }
-int sum(int l)
+void sum(int l)
 {
     int sum;
     for(int u = 0; u < l; u++)
-    sum += array[u]
+    printf("%d", array[u]);
 }
