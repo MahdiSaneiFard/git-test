@@ -11,5 +11,7 @@ int main(void)
 }
 string f(int l)
 {
-    for(int i = 1; i<)
+    for(int i = 1; i<l; i++)
+    int array[i];
+    printf("%d" )
 }
