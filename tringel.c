@@ -24,7 +24,7 @@ int sum(int l)
 }
 void finn(int g, int l)
 {
-    for(int o = g; o<=g+l; o++)
+    for(int o = g; o<g+l; o++)
     {
         printf("%i", o++);
     }
