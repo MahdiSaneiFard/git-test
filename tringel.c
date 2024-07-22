@@ -18,7 +18,7 @@ int main(void)
 int sum(int l)
 {
     int sum = 0;
-    for(int u = 0; u < l--; u++)
+    for(int u = 0; u < l; u++)
     sum = sum + array[u];
     return sum;
 }
