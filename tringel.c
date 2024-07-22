@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int leghte = 5;
-int array[5] = {1, 2, 3, 4, 5};
+int leghte = 6;
+int array[6] = {1, 2, 3, 4, 5, 6};
 
 int sum(int l);
 void finn(int g, int l);
