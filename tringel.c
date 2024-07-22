@@ -4,7 +4,6 @@
 int leghte = 5;
 int array[5] = {1, 2, 3, 4, 5};
 
-void f(int l);
 int sum(int l);
 void finn(int g, int l);
 int main(void)
@@ -16,16 +15,6 @@ int main(void)
         printf("\n");
 
     }
-}
-void f(int l)
-{
-    for(int i = 1; i<=l++; i++)
-    {
-        printf("%d", i);
-        l--;
-    }
-    printf("\n");
-    return;
 }
 int sum(int l)
 {
