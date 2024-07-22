@@ -14,7 +14,7 @@ int main(void)
 }
 void f(int l)
 {
-    for(int i = 1; i<l++; i++)
+    for(int i = 1; i<=l++; i++)
     {
         printf("%d", i);
         l--;
