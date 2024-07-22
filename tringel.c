@@ -17,7 +17,7 @@ void f(int l, int array[])
 {
     for(int i = 0; i<leghte; i++)
     {
-        printf("%d", array[i] );
+        printf("%d", array[i]);
         printf("\n");
     }
     return;
