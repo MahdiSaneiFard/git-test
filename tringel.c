@@ -6,6 +6,10 @@ int main(void)
 {
     for(int i=1; i<=leghte; i++)
     {
-        
+
     }
+}
+string f(int l)
+{
+    for(i)
 }
