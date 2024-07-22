@@ -27,4 +27,5 @@ int sum(int l)
     int sum;
     for(int u = 0; u < l; u++)
     sum += array[u]
+    return sum;
 }
