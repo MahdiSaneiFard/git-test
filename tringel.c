@@ -16,6 +16,6 @@ void f(int l)
     for(int i = 1; i<l; i++)
     {
         int array[i];
-        printf("%d" array[i--] );
+        printf("%d", array[i--] );
     }
 }
