@@ -26,7 +26,7 @@ void f(int l)
 void sum(int l)
 {
     int sum;
-    for(int u = 0; u < l; u++)
+    for(int u = l; u < l; u++)
     {
         printf("%d", array[u]);
     }
