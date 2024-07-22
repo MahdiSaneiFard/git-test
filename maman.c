@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    char l = get_char("letter :");
-    printf("%i", l);
+    int l = get_int("letter :");
+    printf("%c", l);
 
 }
