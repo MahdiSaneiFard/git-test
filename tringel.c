@@ -24,8 +24,7 @@ void f(int l)
 }
 int sum(int l)
 {
-    int sum;
     for(int u = 0; u < l; u++)
-    sum += array[u]
+    int sum = sum + array[u]-1;
     return sum;
 }
