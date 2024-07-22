@@ -3,19 +3,21 @@
 
 int leghte = 5;
 
-void f(int l);
+void f(int l, int array[l]);
 int main(void)
 {
+    int array[leghte];
     for(int i=1; i<=leghte; i++)
     {
-        f(i);
+        array[leghte]=i;
+        f(i, array);
     }
 }
-void f(int l)
+void f(int l, int array[l])
 {
     for(int i = 1; i<l++; i++)
     {
-        int array[i]=i;
+        array[]=i;
         printf("%d", array[i--] );
     }
 }
