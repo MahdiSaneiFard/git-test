@@ -11,6 +11,5 @@ int main(void)
 }
 string f(int l)
 {
-    int h = l\2(h+1);
-    for(i)
+    for(int i = 1; i<)
 }
