@@ -11,7 +11,7 @@ int main(void)
     for(int i=1; i<=leghte; i++)
     {
         int g = sum(i);
-        finn(g,i);
+        finn(g+1,i);
 
     }
 }
@@ -24,7 +24,7 @@ int sum(int l)
 }
 void finn(int g, int l)
 {
-    for(int o = 1+g; o < g+l; o++)
+    for(int o = g; o < g+l; o++)
     {
         printf("%i", o);
     }
