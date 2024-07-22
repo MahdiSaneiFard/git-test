@@ -12,21 +12,21 @@ int main(void)
     {
         int g = sum(i);
         finn(g,i);
-        printf("\n");
 
     }
 }
 int sum(int l)
 {
     int sum = 0;
-        for(int u = 0; u < l; u++)
+    for(int u = 0; u < l--; u++)
     sum = sum + array[u];
     return sum;
-
+}
 void finn(int g, int l)
 {
     for(int o = g; o++<=g+l; o++)
     {
         printf("%i", g);
     }
+    printf("\n");
 }
