@@ -30,3 +30,4 @@ void finn(int g, int l)
     }
     printf("\n");
 }
+void spaces
