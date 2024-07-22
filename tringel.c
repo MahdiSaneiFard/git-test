@@ -5,6 +5,7 @@ int leghte = 5;
 int array[5] = {1, 2, 3, 4, 5};
 
 void f(int l);
+int sum(int l);
 int main(void)
 {
     for(int i=1; i<=leghte; i++)
