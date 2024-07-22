@@ -26,7 +26,7 @@ void finn(int g, int l)
 {
     for(int o = g; o < g+l; o++)
     {
-        printf("%i", o);
+        printf("%i ", o);
     }
     printf("\n");
 }
