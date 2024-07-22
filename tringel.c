@@ -10,7 +10,7 @@ int main(void)
 {
     for(int i=1; i<=leghte; i++)
     {
-        f(i);
+        sum(i);
     }
 }
 void f(int l)
