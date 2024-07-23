@@ -1,13 +1,19 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int leghte = 6;
-int array[6] = {1, 2, 3, 4, 5, 6};
+
 
 int sum(int l);
 void finn(int g, int l);
 int main(void)
 {
+    int num = get_int("num ");
+    int leghte = 6;
+    for(int l = 0; l< leghte; l++)
+    {
+        array[l]=l++;
+        l--;
+    }
     for(int i=1; i<=leghte; i++)
     {
         int g = sum(i);
