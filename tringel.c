@@ -12,7 +12,6 @@ int main(void)
     for(int l = 0; l < num; l++)
     {
         array[l] = l+1 ;
-        l--;
     }
     for(int i=1; i<=num; i++)
     {
