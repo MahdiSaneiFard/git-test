@@ -9,8 +9,8 @@ int main(void)
 {
     int num = get_int("num ");
     int array[num];
-    for(int p)
-
+    for(int p=1; p < num -p; p++)
+    printf(" ");
     for(int l = 0; l < num; l++)
     {
         array[l] = l+1 ;
