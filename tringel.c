@@ -37,5 +37,6 @@ void finn(int g, int l)
 }
 void space(int i, int num)
 {
-    for(int l = )
+    for(l = 1;l < i; l++)
+    printf(" ");
 }
