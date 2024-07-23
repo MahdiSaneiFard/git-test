@@ -9,9 +9,10 @@ int main(void)
 {
     int num = get_int("num ");
     int leghte = 6;
+    int array[leghte];
     for(int l = 0; l< leghte; l++)
     {
-        int array[l] = l+1 ;
+        array[l] = l+1 ;
         l--;
     }
     for(int i=1; i<=leghte; i++)
