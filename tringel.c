@@ -9,8 +9,6 @@ int main(void)
 {
     int num = get_int("num ");
     int array[num];
-    for(int p=1; p < num; p++)
-    printf(" ");
     for(int l = 0; l < num; l++)
     {
         array[l] = l+1 ;
@@ -36,4 +34,8 @@ void finn(int g, int l)
         printf("%i ", o);
     }
     printf("\n");
+}
+void space(int i, int num)
+{
+    for(int l = )
 }
