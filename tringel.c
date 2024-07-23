@@ -13,7 +13,6 @@ int main(void){
         space(i,num);
         int g = sum(i, array);
         finn(g+1,i);
-
     }
 }
 int sum(int l,int array[]){
