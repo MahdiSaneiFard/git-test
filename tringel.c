@@ -11,7 +11,7 @@ int main(void)
     int leghte = 6;
     for(int l = 0; l< leghte; l++)
     {
-        array[l]=l++;
+        int array[l] = l+1 ;
         l--;
     }
     for(int i=1; i<=leghte; i++)
