@@ -8,14 +8,13 @@ void finn(int g, int l);
 int main(void)
 {
     int num = get_int("num ");
-    int leghte = 6;
-    int array[leghte];
-    for(int l = 0; l< leghte; l++)
+    int array[num];
+    for(int l = 0; l < num; l++)
     {
         array[l] = l+1 ;
         l--;
     }
-    for(int i=1; i<=leghte; i++)
+    for(int i=1; i<=num; i++)
     {
         int g = sum(i, array);
         finn(g+1,i);
