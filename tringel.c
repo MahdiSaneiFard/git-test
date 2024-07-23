@@ -3,7 +3,7 @@
 
 
 
-int sum(int l);
+int sum(int l,int array[]);
 void finn(int g, int l);
 int main(void)
 {
@@ -17,12 +17,12 @@ int main(void)
     }
     for(int i=1; i<=leghte; i++)
     {
-        int g = sum(i);
+        int g = sum(i, array);
         finn(g+1,i);
 
     }
 }
-int sum(int l)
+int sum(int l,int array[])
 {
     int sum = 0;
     for(int u = 0; u < l; u++)
