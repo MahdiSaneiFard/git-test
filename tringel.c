@@ -5,6 +5,7 @@
 
 int sum(int l,int array[]);
 void finn(int g, int l);
+void space(int i, int num);
 int main(void)
 {
     int num = get_int("num ");
@@ -15,6 +16,7 @@ int main(void)
     }
     for(int i=1; i<=num; i++)
     {
+        space(i,num);
         int g = sum(i, array);
         finn(g+1,i);
 
@@ -37,6 +39,6 @@ void finn(int g, int l)
 }
 void space(int i, int num)
 {
-    for(l = 1;l < i; l++)
+    for(int l = 1;l < num - l; l++)
     printf(" ");
 }
