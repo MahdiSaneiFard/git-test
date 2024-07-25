@@ -25,7 +25,7 @@ int main(void)
     }
 
 
-    if(check_g = false && check_h = false)
+    if(check_g == false && check_h == false)
     {
         int finn = check_finn(numbers);
         printf("your next num is %i\n", finn);
