@@ -16,19 +16,19 @@ int main(void)
     }
     bool check_g = check_geometry(numbers);
     if(check_g == true){
-        printf("! هندسی است your d is %3f \n", numbers[2] / numbers[1]);
+        printf("! هندسی است your d is %.3f \n", numbers[2] / numbers[1]);
     }
 
     bool check_h = check_working(numbers);
     if (check_h == true){
-        printf("! حسابی است your d is %3f \n", numbers[2] - numbers[1]);
+        printf("! حسابی است your d is %.3f \n", numbers[2] - numbers[1]);
     }
 
 
     if(check_g == false && check_h == false)
     {
         float finn = check_finn(numbers);
-        printf("your next num is %3f\n", finn);
+        printf("your next num is %.3f\n", finn);
     }
 }
 
