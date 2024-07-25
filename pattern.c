@@ -20,7 +20,7 @@ int main(void)
     printf("! حسابی است your d is %i \n", numbers[2] - numbers[1]);
     int finn = check_finn(numbers);
     printf("your next num is %i\n", finn);
-    
+
 }
 
 int check_geometry(int numbers[])
@@ -28,7 +28,7 @@ int check_geometry(int numbers[])
     int l = numbers[1] / numbers[0];
     int g = numbers[2] / numbers[1];
     if(g==l)
-    return l;
+    return g;
 }
 
 int check_working(int numbers[])
