@@ -11,7 +11,7 @@ int main(void)
     for(int c = 0; c < vary; c++)
     {
         printf("your num (just int)\n");
-        scanf("%i",  &numbers[c]);
+        scanf("%f",  &numbers[c]);
 
     }
     bool check_g = check_geometry(numbers);
