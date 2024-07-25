@@ -12,9 +12,10 @@ int main(void)
         printf("your num\n");
         scanf("%i",  &numbers[c]);
     }
-    check_geometry(numbers);
-    if(check_geometry == true)
-    printf("g");
+    bool check_g = check_geometry(numbers);
+    if(check_g == true)
+    printf("! هندسی است\n");
+    bool check_h = check_working(numbers);
 
 
 }
