@@ -10,7 +10,7 @@ int main(void)
     float numbers[vary];
     for(int c = 0; c < vary; c++)
     {
-        printf("your num (just int)\n");
+        printf("your num \n");
         scanf("%f",  &numbers[c]);
 
     }
@@ -58,5 +58,6 @@ int check_finn(float numbers[])
 {
     int p1 = numbers[1] - numbers[0];
     int p2 = numbers[2] - numbers[1];
-    return p2 - p1 + p2 + numbers[2];
+    int p3 = numbers[2];
+    return p2 - p1 + p2 + p3;
 }
