@@ -11,7 +11,7 @@ int main(void)
     {
         printf("your num\n");
         scanf("%i",  &numbers[c]);
-        if(typeof(numbers[c]) = float)
+        if(type(numbers[c]) = float)
         {
             printf("just int");
             return 0
