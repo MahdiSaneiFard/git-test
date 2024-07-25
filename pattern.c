@@ -12,7 +12,12 @@ int main(void)
     {
         printf("your num\n");
         scanf("%i",  &numbers[c]);
-        if(numbers[c] )
+        if(typeof(numbers[c]) = float)
+        {
+            printf("just int");
+            return 0
+        }
+
     }
     bool check_g = check_geometry(numbers);
     if(check_g == true)
