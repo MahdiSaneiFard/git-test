@@ -18,8 +18,9 @@ int main(void)
 }
 bool check_geometry(int numbers[])
 {
-    numbers[1] / numbers[0] = int l;
-    numbers[2] / numbers[1] = int g;
+    int l,g;
+    numbers[1] / numbers[0] = l;
+    numbers[2] / numbers[1] = g;
     if(g==l)
     return 0;
     else
