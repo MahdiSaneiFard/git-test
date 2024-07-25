@@ -9,13 +9,8 @@ int main(void)
     int numbers[vary];
     for(int c = 0; c < vary; c++)
     {
-        printf("your num\n");
+        printf("your num (just int)\n");
         scanf("%i",  &numbers[c]);
-        if(type(numbers[c]) = float)
-        {
-            printf("just int");
-            return 0
-        }
 
     }
     bool check_g = check_geometry(numbers);
