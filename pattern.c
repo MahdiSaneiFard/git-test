@@ -1,9 +1,13 @@
 #include <stdio.h>
 
- int vary == 3;
+const int vary = 3;
 
 int main(void)
 {
     for(int c = 0; c < vary; c++)
-    numbers[]
+    {
+        printf("your num");
+        int numbers[c];
+    }
+
 }
