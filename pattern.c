@@ -18,8 +18,7 @@ int main(void)
 }
 bool check_geometry(int numbers[])
 {
-    int l,g;
-    numbers[1] / numbers[0] = l;
+    int l = sizeof(numbers[1]) / sizeof(numbers[0]);
     numbers[2] / numbers[1] = g;
     if(g==l)
     return 0;
