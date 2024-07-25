@@ -18,7 +18,7 @@ int main(void)
     if(check_g == true)
     printf("! هندسی است your d is %i \n", numbers[2] / numbers[1]);
     bool check_h = check_working(numbers);
-    if else(check_g == true)
+    if(check_g == true)
     printf("! حسابی است your d is %i \n", numbers[2] - numbers[1]);
     else
     {
