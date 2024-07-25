@@ -12,6 +12,7 @@ int main(void)
     {
         printf("your num\n");
         scanf("%i",  &numbers[c]);
+        if(numbers[c] )
     }
     bool check_g = check_geometry(numbers);
     if(check_g == true)
@@ -20,6 +21,7 @@ int main(void)
     if(check_g == true)
     printf("! حسابی است your d is %i \n", numbers[2] - numbers[1]);
 }
+
 bool check_geometry(int numbers[])
 {
     int l = numbers[1] / numbers[0];
@@ -29,6 +31,7 @@ bool check_geometry(int numbers[])
     else
     return false;
 }
+
 bool check_working(int numbers[])
 {
     int l = numbers[1] - numbers[0];
