@@ -2,8 +2,8 @@
 #include <cs50.h>
 const int vary = 3;
 
-int check_working(int numbers[]);
-int check_geometry(int numbers[]);
+bool check_working(int numbers[]);
+bool check_geometry(int numbers[]);
 int check_finn(int numbers[]);
 int main(void)
 {
@@ -14,29 +14,45 @@ int main(void)
         scanf("%i",  &numbers[c]);
 
     }
-    int check_g = check_geometry(numbers);
-    printf("! هندسی است your d is %i \n", check_g);
-    int check_h = check_working(numbers);
-    printf("! حسابی است your d is %i \n", numbers[2] - numbers[1]);
-    int finn = check_finn(numbers);
-    printf("your next num is %i\n", finn);
+    bool check_g = check_geometry(numbers);
+    if(check_g == true){
+        printf("! هندسی است your d is %i \n", numbers[2] / numbers[1]);
+    }
 
+    bool check_h = check_working(numbers);
+    if (check_h == true){
+        printf("! حسابی است your d is %i \n", numbers[2] - numbers[1]);
+    }
+
+
+    if(check_g = false && check_h = false)
+    {
+        int finn = check_finn(numbers);
+        printf("your next num is %i\n", finn);
+    }
 }
 
-int check_geometry(int numbers[])
+bool check_geometry(int numbers[])
 {
     int l = numbers[1] / numbers[0];
     int g = numbers[2] / numbers[1];
-    if(g==l)
-    return g;
+    if(g==l){
+        return true;
+    }
+
+    else{
+        return false;
+    }
 }
 
-int check_working(int numbers[])
+bool check_working(int numbers[])
 {
     int l = numbers[1] - numbers[0];
     int g = numbers[2] - numbers[1];
     if(g == l)
-    return l;
+    return true;
+    else
+    return false;
 }
 int check_finn(int numbers[])
 {
