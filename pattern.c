@@ -7,11 +7,11 @@ bool check_geometry(float numbers[]);
 int check_finn(float numbers[]);
 int main(void)
 {
-    int numbers[vary];
+    float numbers[vary];
     for(int c = 0; c < vary; c++)
     {
         printf("your num (just int)\n");
-        numbers[c] = get_float(" ");
+        scanf("%f",  &numbers[c]);
 
     }
     bool check_g = check_geometry(numbers);
