@@ -13,6 +13,8 @@ int main(void)
         scanf("%i",  &numbers[c]);
     }
     check_geometry(numbers);
+    if(check_geometry true)
+    printf("g");
 
 
 }
@@ -21,7 +23,7 @@ bool check_geometry(int numbers[])
     int l = numbers[1] / numbers[0];
     int g = numbers[2] / numbers[1];
     if(g==l)
-    return 0;
+    return true;
     else
-    return 1;
+    return false;
 }
