@@ -10,7 +10,10 @@ int main(void)
         printf("your num\n");
         scanf("%i",  &numbers[c]);
     }
-    
+
 
 }
-
+bool check_ghometry(numbers[c])
+{
+    
+}
