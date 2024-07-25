@@ -2,26 +2,26 @@
 #include <cs50.h>
 const int vary = 3;
 
-bool check_working(int numbers[]);
-bool check_geometry(int numbers[]);
-int check_finn(int numbers[]);
+bool check_working(float numbers[]);
+bool check_geometry(float numbers[]);
+int check_finn(float numbers[]);
 int main(void)
 {
     int numbers[vary];
     for(int c = 0; c < vary; c++)
     {
         printf("your num (just int)\n");
-        scanf("%f",  &numbers[c]);
+        numbers[c] = get_float(" ");
 
     }
     bool check_g = check_geometry(numbers);
     if(check_g == true){
-        printf("! هندسی است your d is %i \n", numbers[2] / numbers[1]);
+        printf("! هندسی است your d is %f \n", numbers[2] / numbers[1]);
     }
 
     bool check_h = check_working(numbers);
     if (check_h == true){
-        printf("! حسابی است your d is %i \n", numbers[2] - numbers[1]);
+        printf("! حسابی است your d is %f \n", numbers[2] - numbers[1]);
     }
 
 
@@ -32,10 +32,10 @@ int main(void)
     }
 }
 
-bool check_geometry(int numbers[])
+bool check_geometry(float numbers[])
 {
-    int l = numbers[1] / numbers[0];
-    int g = numbers[2] / numbers[1];
+    float l = numbers[1] / numbers[0];
+    float g = numbers[2] / numbers[1];
     if(g==l){
         return true;
     }
@@ -45,16 +45,16 @@ bool check_geometry(int numbers[])
     }
 }
 
-bool check_working(int numbers[])
+bool check_working(float numbers[])
 {
-    int l = numbers[1] - numbers[0];
-    int g = numbers[2] - numbers[1];
+    float l = numbers[1] - numbers[0];
+    float g = numbers[2] - numbers[1];
     if(g == l)
     return true;
     else
     return false;
 }
-int check_finn(int numbers[])
+int check_finn(float numbers[])
 {
     int p1 = numbers[1] - numbers[0];
     int p2 = numbers[2] - numbers[1];
