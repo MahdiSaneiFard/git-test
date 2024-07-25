@@ -13,7 +13,7 @@ int main(void)
         scanf("%i",  &numbers[c]);
     }
     check_geometry(numbers);
-    if(check_geometry true)
+    if(check_geometry == true)
     printf("g");
 
 
