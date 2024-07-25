@@ -8,7 +8,9 @@ int main(void)
     for(int c = 0; c < vary; c++)
     {
         printf("your num\n");
-        scanf("%i", numbers[c]);
+        scanf("%i",  &numbers[c]);
     }
+    
 
 }
+
