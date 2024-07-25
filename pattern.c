@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <cs50.h>
-
 const int vary = 3;
 
 bool check_working(int numbers[]);
