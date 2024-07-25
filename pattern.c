@@ -2,8 +2,8 @@
 #include <cs50.h>
 const int vary = 3;
 
-bool check_working(int numbers[]);
-bool check_geometry(int numbers[]);
+int check_working(int numbers[]);
+int check_geometry(int numbers[]);
 int check_finn(int numbers[]);
 int main(void)
 {
@@ -32,22 +32,25 @@ int main(void)
     }
 }
 
-bool check_geometry(int numbers[])
+int check_geometry(int numbers[])
 {
     int l = numbers[1] / numbers[0];
     int g = numbers[2] / numbers[1];
-    if(g==l)
-    return true;
-    else
-    return false;
+    if(g==l){
+        return l;
+    }
+
+    if(g!=l){
+        return 1;
+    }
 }
 
-bool check_working(int numbers[])
+int check_working(int numbers[])
 {
     int l = numbers[1] - numbers[0];
     int g = numbers[2] - numbers[1];
     if(g == l)
-    return true;
+    return l;
     else
     return false;
 }
