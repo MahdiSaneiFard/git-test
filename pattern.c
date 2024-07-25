@@ -4,7 +4,7 @@ const int vary = 3;
 
 bool check_working(float numbers[]);
 bool check_geometry(float numbers[]);
-int check_finn(float numbers[]);
+float check_finn(float numbers[]);
 int main(void)
 {
     float numbers[vary];
@@ -27,8 +27,8 @@ int main(void)
 
     if(check_g == false && check_h == false)
     {
-        int finn = check_finn(numbers);
-        printf("your next num is %i\n", finn);
+        float finn = check_finn(numbers);
+        printf("your next num is %f\n", finn);
     }
 }
 
@@ -54,10 +54,10 @@ bool check_working(float numbers[])
     else
     return false;
 }
-int check_finn(float numbers[])
+float check_finn(float numbers[])
 {
-    int p1 = numbers[1] - numbers[0];
-    int p2 = numbers[2] - numbers[1];
-    int p3 = numbers[2];
+    float p1 = numbers[1] - numbers[0];
+    float p2 = numbers[2] - numbers[1];
+    float p3 = numbers[2];
     return p2 - p1 + p2 + p3;
 }
