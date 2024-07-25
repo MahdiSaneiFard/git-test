@@ -1,22 +1,24 @@
 #include <stdio.h>
 #include <cs50.h>
 const int vary = 3;
-
+//prototype
 bool check_working(float numbers[]);
 bool check_geometry(float numbers[]);
 float check_finn(float numbers[]);
+//main
 int main(void)
 {
+    
     float numbers[vary];
     for(int c = 0; c < vary; c++)
     {
         printf("your num : \n");
         scanf("%f",  &numbers[c]);
-
     }
+
     bool check_g = check_geometry(numbers);
     if(check_g == true){
-        printf("! هندسی است your d is %.3f \n", numbers[2] / numbers[1]);
+        printf("! هندسی است your q is %.3f \n", numbers[2] / numbers[1]);
     }
 
     bool check_h = check_working(numbers);
@@ -30,21 +32,19 @@ int main(void)
         float finn = check_finn(numbers);
         printf("your next num is %.3f\n", finn);
     }
-}
 
+}
+//برای دنباله هندسی
 bool check_geometry(float numbers[])
 {
     float l = numbers[1] / numbers[0];
     float g = numbers[2] / numbers[1];
-    if(g==l){
-        return true;
-    }
-
-    else{
-        return false;
-    }
+    if(g==l)
+    return true;
+    else
+    return false;
 }
-
+//برای دنباله حسابی
 bool check_working(float numbers[])
 {
     float l = numbers[1] - numbers[0];
@@ -54,6 +54,7 @@ bool check_working(float numbers[])
     else
     return false;
 }
+//برای دنباله های درجه دو
 float check_finn(float numbers[])
 {
     float p1 = numbers[1] - numbers[0];
