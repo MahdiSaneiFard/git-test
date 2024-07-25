@@ -10,7 +10,7 @@ int main(void)
     float numbers[vary];
     for(int c = 0; c < vary; c++)
     {
-        printf("your num \n");
+        printf("your num : \n");
         scanf("%f",  &numbers[c]);
 
     }
