@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <s>
+#include <cs50.h>
 
 bool check(float a);
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
     {
         scanf("%f", &h);
     }
-    while(check_resalt = 1)
+    while(check_resalt == 1);
 
 }
 bool check(float a)
