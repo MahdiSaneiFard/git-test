@@ -13,6 +13,11 @@ int main(void)
         scanf("%f", &h);
     }
     while(check_resalt == false);
+    float p;
+    float o = p*p;
+    o = h;
+    printf("%f", o);
+
 
 }
 bool check(float a)
