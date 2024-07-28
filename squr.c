@@ -4,11 +4,13 @@ int main(void)
 {
     float h;
     printf("your number");
+    scanf("%f", &h);
+    check(h);
     do
     {
         scanf("%f", &h);
     }
-    while()
+    while(h)
 
 }
 bool check(float a)
