@@ -1,16 +1,18 @@
 #include <stdio.h>
+#include <s>
 
+bool check(float a);
 int main(void)
 {
     float h;
     printf("your number");
     scanf("%f", &h);
-    check(h);
+    bool check_resalt = check(h);
     do
     {
         scanf("%f", &h);
     }
-    while(h)
+    while(check_resalt = 1)
 
 }
 bool check(float a)
