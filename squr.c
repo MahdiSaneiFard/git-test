@@ -12,7 +12,7 @@ int main(void)
     {
         scanf("%f", &h);
     }
-    while(check_resalt == 1);
+    while(check_resalt == false);
 
 }
 bool check(float a)
