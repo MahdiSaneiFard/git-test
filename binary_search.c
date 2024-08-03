@@ -7,7 +7,7 @@ int r = 0;
 
 int binary_search(int up,int d,int lp)
 {
-    while (r <=lp/2 )
+    while (r <=lp/2 +1)
     {
 
         if(data[d/2] == up)
