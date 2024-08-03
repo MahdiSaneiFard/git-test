@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int data[]={1,3,5,7,9,11,12,14,16,18,18};
+int data[]={1,3,5,7,9,11,12,14,16,18};
 int r = 0;
 
 void binary_search(int up,int d,int lp);
