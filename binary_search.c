@@ -32,7 +32,7 @@ int binary_search(int up,int d,int lp)
 
 int main(void)
 {
-    float d = (sizeof(data)/4) - 1;
+    int d = (sizeof(data)/4) - 1;
     printf("what you want to search ");
     int user_input;
     scanf("%i", &user_input);
