@@ -5,11 +5,10 @@
 int data[]={1, 3, 5, 7, 9, 11};
 int r = 0;
 
-int binary_search(int up,int d,int lp)
+int binary_search_left(int up,int d,int lp)
 {
     while (r <=lp/2 +1)
     {
-        if(up<)
 
         if(data[d/2] == up)
         {
@@ -18,13 +17,39 @@ int binary_search(int up,int d,int lp)
         else if(data[d/2] > up)
         {
             r++;
-            d=;
+            d=d/2;
             binary_search(up,d,lp);
         }
         else if(data[d/2]< up)
         {
             r++;
-            d=((d/2) + lp+1);
+            d=((d/2) + lp);
+            binary_search(up,d,lp);
+        }
+
+    }
+    return 1;
+
+}
+int binary_search_right(int up,int d,int lp)
+{
+    while (r <=lp/2 +1)
+    {
+
+        if(data[d/2] == up)
+        {
+            return 0;
+        }
+        else if(data[d/2] > up)
+        {
+            r++;
+            d=d/2;
+            binary_search(up,d,lp);
+        }
+        else if(data[d/2]< up)
+        {
+            r++;
+            d=((d/2) + lp);
             binary_search(up,d,lp);
         }
 
@@ -48,7 +73,16 @@ int main(void)
         printf("not found \n");
         return 0;
     }
-
+    if(user_input>data[d/2])
+    {
+        int a = binary_search_right(user_input,d,d);
+        if(a == 0)
+        printf("found\n");
+        else
+        printf("not found \n");
+        return 0;
+    }
+    }
 }
 
 
