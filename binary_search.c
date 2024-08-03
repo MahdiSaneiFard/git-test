@@ -24,7 +24,7 @@ bool binary_search(int up,int d,int lp)
 {
     if(data[d/2] == up)
     {
-        return 0;
+        return true;
     }
     else if(data[d/2] > up)
     {
