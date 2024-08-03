@@ -75,7 +75,7 @@ int main(void)
     }
     if(user_input>data[d/2])
     {
-        int a = binary_search_right(user_input,d,d);
+        int a = binary_search_right(user_input,d/2,d);
         if(a == 0)
         printf("found\n");
         else
