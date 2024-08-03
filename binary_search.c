@@ -32,6 +32,8 @@ void binary_search(int up,int d)
             r++;
             binary_search(up,d);
         }
+        else
+        printf("not found\n");
     else
     printf("not found\n");
 }
