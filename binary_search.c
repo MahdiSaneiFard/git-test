@@ -1,42 +1,36 @@
-// C program to implement recursive Binary Search
+#include <cs50.h>
 #include <stdio.h>
+#include <string.h>
 
-// A recursive binary search function. It returns
-// location of x in given array arr[low..high] is present,
-// otherwise -1
-int binarySearch(int arr[], int low, int high, int x)
+int data[]={1,3,5,7,9,11,12,14,16,18};
+int r = 0;
+
+void binary_search(int up,int d,int lp);
+int main(void)
 {
-    if (high >= low) {
-        int mid = low + (high - low) / 2;
+    int d = (sizeof(data)/4) - 1;
+    printf("what you want to search ");
+    int user_input;
+    scanf("%i", &user_input);
+    binary_search(user_input,d,d);
 
-        // If the element is present at the middle
-        // itself
-        if (arr[mid] == x)
-            return mid;
-
-        // If element is smaller than mid, then
-        // it can only be present in left subarray
-        if (arr[mid] > x)
-            return binarySearch(arr, low, mid - 1, x);
-
-        // Else the element can only be present
-        // in right subarray
-        return binarySearch(arr, mid + 1, high, x);
-    }
-
-    // We reach here when element is not
-    // present in array
-    return -1;
 }
 
-// Driver code
-int main()
+void binary_search(int up,int d,int lp)
 {
-    int arr[] = { 2, 3, 4, 10, 40 };
-    int n = sizeof(arr) / sizeof(arr[0]);
-    int x = 10;
-    int result = binarySearch(arr, 0, n - 1, x);
-    if (result == -1) printf("Element is not present in array");
-    else printf("Element is present at index %d", result);
-    return 0;
+    if(data[d/2] == up)
+    {
+        printf("found \n");
+    }
+    else if(data[d/2] > up)
+    {
+        d=d/2;
+        binary_search(up,d,lp);
+    }
+    else if(data[d/2] < up)
+    {
+        d = lp + d/2;
+        binary_search(up,d,lp);
+    }
+
 }
