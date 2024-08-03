@@ -27,6 +27,6 @@ void binary_search(int up,int d)
     }
     else if(data[d/2] < up)
     {
-        binary_search(up,d/2);
+        binary_search(up,(d+d/2)/2);
     }
 }
