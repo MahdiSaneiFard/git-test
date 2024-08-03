@@ -22,6 +22,7 @@ int main(void)
 
 bool binary_search(int up,int d,int lp)
 {
+    while(0.5<d<)
     if(data[d/2] == up)
     {
         return true;
