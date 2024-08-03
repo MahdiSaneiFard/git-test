@@ -8,7 +8,7 @@ int r = 0;
 void binary_search(int up);
 int main(void)
 {
-    int d = sizeof(data);
+    int d = sizeof(data)/4;
     printf("what you want to search ");
     int user_input;
     scanf("%i", &user_input);
