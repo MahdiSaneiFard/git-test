@@ -8,7 +8,7 @@ int binary_search(int up,int d,int lp)
 {
     while (d<16)
     {
-        if(data[(d/2)+1] == up)
+        if(data[d/2] == up)
         {
             return up;
         }
