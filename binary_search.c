@@ -26,10 +26,12 @@ void binary_search(int up)
         r++;
         binary_search(r);
     }
-    else
+    else if(data[r] < up)
     {
         r++;
         binary_search(r);
     }
-
+    else{
+        printf("not found \n");
+    }
 }
