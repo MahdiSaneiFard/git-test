@@ -17,18 +17,23 @@ int main(void)
 
 void binary_search(int up)
 {
-    if(data[r]==up)
-    {
-        printf("found \n");
-    }
-    else if(data[r] > up)
-    {
-        r++;
-        binary_search(up);
-    }
-    else if(data[r] < up)
-    {
-        r++;
-        binary_search(up);
-    }
+    if(up<data[4])
+        if(data[r]==up)
+        {
+            printf("found \n");
+        }
+        else if(data[r] > up)
+        {
+            r++;
+            binary_search(up);
+        }
+        else if(data[r] < up)
+        {
+            r++;
+            binary_search(up);
+        }
+        else
+        printf("not found");
+    else
+    printf("not found");
 }
