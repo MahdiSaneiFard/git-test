@@ -3,6 +3,7 @@
 #include <string.h>
 
 int data[]={1,3,5,7,9};
+int l = 0;
 
 void binary_search(int l,int up);
 int main(void)
@@ -21,5 +22,15 @@ void binary_search(int l,int up)
         printf("found \n");
         return 0;
     }
-    else if
+    else if(data[l] > up)
+    {
+        l++;
+        binary_search();
+    }
+    else
+    {
+        l++;
+        binary_search();
+    }
+
 }
