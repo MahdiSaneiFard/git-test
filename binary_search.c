@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int data[]={1,2,3,4,5,6,7,8,9};
+int data[]={1,2,3,4,5,6,7,8,9,10,11};
 int r = 0;
 
 void binary_search(int up,int d,int lp);
@@ -26,9 +26,11 @@ void binary_search(int up,int d,int lp)
         d=d/2;
         binary_search(up,d,lp);
     }
-    else
+    else if(data[d/2] < up)
     {
         d = lp + d/2;
         binary_search(up,d,lp);
     }
+    else if(data[lp]==up)
+    printf("found \n");
 }
