@@ -7,21 +7,21 @@ int r = 0;
 
 int binary_search(int up,float d,int lp)
 {
-    while (d<16 && 0<d)
+    while (d>0)
     {
-        int t = round(d/2);
-        if(data[t] == up)
+        d=d/2;
+        if(data[d] == up)
         {
             return 0;
         }
-        else if(data[t] > up)
+        else if(d> up)
         {
-            d=d/2;
+            ;
             binary_search(up,d,lp);
         }
-        else if(data[t] < up)
+        else if(d+d/2< up)
         {
-            d = lp + d/1.9;
+            ;
             binary_search(up,d,lp);
         }
 
