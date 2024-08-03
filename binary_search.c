@@ -16,7 +16,7 @@ int binary_search(int up,float d,int lp)
         }
         else if(data[t] > up)
         {
-            int t = round(d/2);
+            d=d/2;
             binary_search(up,d,lp);
         }
         else if(data[t] < up)
