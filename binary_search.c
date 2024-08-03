@@ -18,13 +18,13 @@ int binary_search_left(int up,int d,int lp)
         {
             r++;
             d=d/2;
-            binary_search(up,d,lp);
+            binary_search_left(up,d,lp);
         }
         else if(data[d/2]< up)
         {
             r++;
             d=((d/2) + lp);
-            binary_search(up,d,lp);
+            binary_search_right(up,d,lp);
         }
 
     }
@@ -44,13 +44,13 @@ int binary_search_right(int up,int d,int lp)
         {
             r++;
             d=d/2;
-            binary_search(up,d,lp);
+            binary_search_left(up,d,lp);
         }
         else if(data[d/2]< up)
         {
             r++;
             d=((d/2) + lp);
-            binary_search(up,d,lp);
+            binary_search_right(up,d,lp);
         }
 
     }
