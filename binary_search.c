@@ -86,5 +86,3 @@ int binary_search_right(int up,int d,int lp)
     return 1;
 
 }
-
-
