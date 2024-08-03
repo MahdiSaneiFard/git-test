@@ -9,14 +9,15 @@ int binary_search(int up,int d,int lp)
 {
     while (r <=lp/2)
     {
-        d=d/2;
-        if(data[d] == up)
+
+        if(data[d/2] == up)
         {
             return 0;
         }
-        else if(data[d]> up)
+        else if(data[d/2]> up)
         {
             r++;
+            d=d/2;
             binary_search(up,d,lp);
         }
         else if(data[d/2]< up)
