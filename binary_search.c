@@ -26,7 +26,7 @@ int binary_search(int up,int d,int lp)
     {
         if(data[d/2] == up)
         {
-            return 0;
+            return 1;
         }
         else if(data[d/2] > up)
         {
