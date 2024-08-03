@@ -7,7 +7,7 @@ int r = 0;
 
 int binary_search(int up,float d,int lp)
 {
-    while (d<16 && 0<d)
+    while (d<16 && 0.<d)
     {
         int t = round(d/2);
         if(data[t] == up)
