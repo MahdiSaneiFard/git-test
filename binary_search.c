@@ -24,6 +24,7 @@ int binary_search(int up,int d,int lp)
         }
 
     }
+    return 1;
 
 }
 
