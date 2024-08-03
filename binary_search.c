@@ -7,12 +7,12 @@ int r = 0;
 
 int binary_search(int up,float d,int lp)
 {
-    while (d<16)
+    while (d<16 && 0<d)
     {
         int t = round(d/2);
         if(data[t] == up)
         {
-            return up;
+            return 0;
         }
         else if(data[t] > up)
         {
@@ -37,7 +37,7 @@ int main(void)
     int user_input;
     scanf("%i", &user_input);
     int a = binary_search(user_input,d,d);
-    if(a == user_input)
+    if(a == 0)
     printf("found\n");
     else
     printf("not found \n");
