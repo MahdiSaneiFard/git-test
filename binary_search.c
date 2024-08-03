@@ -19,7 +19,7 @@ int binary_search(int up,int d,int lp)
         }
         else if(data[d/2] < up)
         {
-            d = lp + d/1.99;
+            d = lp + d/1.9;
             binary_search(up,d,lp);
         }
 
@@ -30,7 +30,7 @@ int binary_search(int up,int d,int lp)
 
 int main(void)
 {
-    int d = (sizeof(data)/4) - 1;
+    int d = (sizeof(data)/4) ;
     printf("what you want to search ");
     int user_input;
     scanf("%i", &user_input);
