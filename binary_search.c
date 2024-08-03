@@ -24,11 +24,11 @@ void binary_search(int up)
     else if(data[r] > up)
     {
         r++;
-        binary_search(r);
+        binary_search(up);
     }
     else if(data[r] < up)
     {
         r++;
-        binary_search(r);
+        binary_search(up);
     }
 }
