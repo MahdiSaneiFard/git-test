@@ -1,23 +1,25 @@
 #include <cs50.h>
 #include <stdio.h>
+#include <math.h>
 
 int data[]={1, 2, 3, 4, 5, 6, 7, 8, 9};
 int r = 0;
 
-int binary_search(int up,int d,int lp)
+int binary_search(int up,float d,int lp)
 {
     while (d<16)
     {
-        if(data[d/2] == up)
+        int t = round(d/2);
+        if(data[t] == up)
         {
             return up;
         }
-        else if(data[d/2] > up)
+        else if(data[t] > up)
         {
-            d=d/2;
+            int t = round(d/2);
             binary_search(up,d,lp);
         }
-        else if(data[d/2] < up)
+        else if(data[t] < up)
         {
             d = lp + d/1.9;
             binary_search(up,d,lp);
@@ -30,7 +32,7 @@ int binary_search(int up,int d,int lp)
 
 int main(void)
 {
-    int d = (sizeof(data)/4) - 1;
+    float d = (sizeof(data)/4) - 1;
     printf("what you want to search ");
     int user_input;
     scanf("%i", &user_input);
