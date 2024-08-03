@@ -2,12 +2,12 @@
 #include <stdio.h>
 #include <math.h>
 
-int data[]={1, 3, 5, 7, 9, 11, 13, 15, 17, 19};
+int data[]={1, 3, 5, 7, 9};
 int r = 0;
 
 int binary_search(int up,int d,int lp)
 {
-    while (r <=lp/2)
+    while (r <=lp/2 )
     {
 
         if(data[d/2] == up)
