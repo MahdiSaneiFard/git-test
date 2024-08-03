@@ -28,7 +28,7 @@ void binary_search(int up,int d,int lp)
     }
     else
     {
-        d = lp - d/2;
+        d = lp + d/2;
         binary_search(up,d,lp);
     }
 }
