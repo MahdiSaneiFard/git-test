@@ -5,9 +5,9 @@
 int data[]={1, 3, 5, 7, 9, 11, 13, 15, 17, 19};
 int r = 0;
 
-int binary_search(int up,float d,int lp)
+int binary_search(int up,int d,int lp)
 {
-    while (d>0)
+    while (int l =)
     {
         d=d/2;
         if(data[d] == up)
