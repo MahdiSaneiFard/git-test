@@ -14,12 +14,12 @@ int binary_search(int up,float d,int lp)
         {
             return 0;
         }
-        else if(d> up)
+        else if(data[d]> up)
         {
             ;
             binary_search(up,d,lp);
         }
-        else if(d+d/2< up)
+        else if(data[d+d/2]< up)
         {
             ;
             binary_search(up,d,lp);
