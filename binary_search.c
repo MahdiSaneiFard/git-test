@@ -19,6 +19,7 @@ int main(void)
     printf("not found \n");
 
 }
+
 int binary_search(int up,int d,int lp)
 {
     while (d<16)
