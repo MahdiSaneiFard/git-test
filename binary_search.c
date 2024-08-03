@@ -14,7 +14,7 @@ int binary_search(int up,int d,int lp)
         {
             return 0;
         }
-        else if(data[d/2]> up)
+        else if(data[d/2] > up)
         {
             r++;
             d=d/2;
@@ -23,7 +23,7 @@ int binary_search(int up,int d,int lp)
         else if(data[d/2]< up)
         {
             r++;
-            d=(d+lp);
+            d=(d/2)+lp;
             binary_search(up,d,lp);
         }
 
