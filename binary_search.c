@@ -17,7 +17,7 @@ int main(void)
 
 void binary_search(int up,int d)
 {
-    if(data[d/2] || data[d-d/2] = up)
+    if(data[d/2] || data[d-d/2] == up)
     {
         printf("found \n");
     }
