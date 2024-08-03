@@ -9,6 +9,7 @@ int binary_search(int up,int d,int lp)
 {
     while (r <=lp/2 +1)
     {
+        if(up<)
 
         if(data[d/2] == up)
         {
@@ -17,7 +18,7 @@ int binary_search(int up,int d,int lp)
         else if(data[d/2] > up)
         {
             r++;
-            d=d + d/2;
+            d=;
             binary_search(up,d,lp);
         }
         else if(data[d/2]< up)
@@ -38,11 +39,15 @@ int main(void)
     printf("what you want to search ");
     int user_input;
     scanf("%i", &user_input);
-    int a = binary_search(user_input,d,d);
-    if(a == 0)
-    printf("found\n");
-    else
-    printf("not found \n");
+    if(user_input<=data[d/2])
+    {
+        int a = binary_search_left(user_input,d,d);
+        if(a == 0)
+        printf("found\n");
+        else
+        printf("not found \n");
+        return 0;
+    }
 
 }
 
