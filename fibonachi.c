@@ -17,7 +17,6 @@ int fibonachi(int i)
     while(i>0)
     {
         n[i-1] = n[i-3] + n[i-2];
-        return n[i--];
     }
-
+    return n[i--];
 }
