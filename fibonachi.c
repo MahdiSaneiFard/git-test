@@ -11,7 +11,7 @@ int main(void)
 
 int fibonachi(int i)
 {
-    int n[i];
+    int n[i+1];
     n[0] = 0;
     n[1] = 1;
     n[i-1] = n[i-3] + n[i-2];
