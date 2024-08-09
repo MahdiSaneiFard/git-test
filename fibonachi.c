@@ -14,6 +14,10 @@ int fibonachi(int i)
     int n[i];
     n[0] = 0;
     n[1] = 1;
-    n[i] = n[i--] + n[i-2];
-    return n[i];
+    while(i>0)
+    {
+        n[i-1] = n[i-3] + n[i-2];
+        return n[i--];
+    }
+
 }
