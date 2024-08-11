@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int A[] = {3, 2, 5, 4, 1};
+int A[] = {3, 2, 5};
 
 int main(void)
 {
