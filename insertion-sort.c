@@ -9,9 +9,10 @@ int main(void)
     for(int i = 1; i < size ; i++)
     {
         int key = A[i];
-        for(int j = i - 1; j >= 0 && A[i] < A[j]; j--)
+        int j;
+        for(j = i - 1; j >= 0 && A[i] < A[j]; j--)
         A[j + 1] = A[j];
-
+        A[j] = key;
     }
     for(int i = 0; i < size; i++)
     printf("%i", A[i]);
