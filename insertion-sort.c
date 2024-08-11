@@ -18,6 +18,9 @@ int main(void)
         printf("\n");
 
         A[j] = key;
+        for(int il = 0; il < size; il++)
+        printf("%i", A[il]);
+        printf("\n");
     }
     for(int il = 0; il < size; il++)
     printf("%i", A[il]);
