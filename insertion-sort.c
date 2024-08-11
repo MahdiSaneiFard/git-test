@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int A[] = {3, 2, 1, 4};
+int A[] = {3, 2, 1, 4, 6, 3, 2};
 
 int main(void)
 {
@@ -10,14 +10,22 @@ int main(void)
     {
         int key = A[i];
         int p;
-        for(int j = i - 1; j >= 0 && key < A[j]; j--)
+        int y;
+        if(key < A[i-1])
         {
-            A[j + 1] = A[j];
-            p = j;
+            for(int j = i - 1; j >= 0 && key < A[j]; j--)
+            {
+                A[j + 1] = A[j];
+                p = j;
+                y = 0;
+            }
+            if(y == 0)
+            {
+                A[p] = key;
+            }
         }
-        A[p] = key;
+    }
         for(int il = 0; il < size; il++)
         printf("%i", A[il]);
         printf("\n");
-    }
 }
