@@ -28,4 +28,6 @@ int main(void)
         for(int il = 0; il < size; il++)
         printf("%i ", A[il]);
         printf("\n");
+        printf("%d", A[36]);
+
 }
