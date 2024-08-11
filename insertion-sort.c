@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
-
-int A[] = {1, 2, 3 ,5 ,5 ,4 , 4, 5 ,5 ,6 ,6 , 10 , 11 ,1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, -40,2312 ,2 };
+int B[] = {1};
+int A[] = {1, 2, 3 ,5 , B[0]};
 
 int main(void)
 {
@@ -28,6 +28,5 @@ int main(void)
         for(int il = 0; il < size; il++)
         printf("%i ", A[il]);
         printf("\n");
-        printf("%d", A[36]);
 
 }
