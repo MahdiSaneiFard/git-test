@@ -6,7 +6,7 @@ int A[] = {3, 2, 5, 4, 1};
 int main(void)
 {
     int size = sizeof(A)/4;
-    for(int i = 1; i <= size ; i++)
+    for(int i = 1; i < size ; i++)
     {
         int key = A[i];
         for(int j = i - 1; j >= 0 && A[i] < A[j]; j--)
