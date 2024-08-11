@@ -10,7 +10,7 @@ int main(void)
     {
         int key = A[i];
         int p;
-        for(int j = i - 1; j >= 0 && A[i] < A[j]; j--)
+        for(int j = i - 1; j >= 0 && key < A[j]; j--)
         {
             A[j + 1] = A[j];
             p = j;
