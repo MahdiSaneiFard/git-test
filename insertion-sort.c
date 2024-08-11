@@ -13,6 +13,7 @@ int main(void)
         for(int j = i - 1; j >= 0 && A[i] < A[j]; j--)
         {
             A[j + 1] = A[j];
+            printf("%i", A[j]);
             p = j;
         }
         A[p] = key;
