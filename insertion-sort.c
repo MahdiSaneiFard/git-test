@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
-int B[] = {1};
-int A[] = {1, 2, 3 ,5 , B[0]};
+
+int A[] = {1, 2, 3 ,5 , A[1]};
 
 int main(void)
 {
