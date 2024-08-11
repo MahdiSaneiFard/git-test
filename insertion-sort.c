@@ -9,7 +9,7 @@ int main(void)
     for(int i = 1; i < size ; i++)
     {
         int key = A[i];
-        int p;
+        int p = ;
         for(int j = i - 1; j >= 0 && A[i] < A[j]; j--)
         {
             A[j + 1] = A[j];
