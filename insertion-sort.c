@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-A[] = {3, 2, 5, 4, 1};
+int A[] = {3, 2, 5, 4, 1};
 
 int main(void)
 {
@@ -9,6 +9,8 @@ int main(void)
     for(int i = 2; i <= size ; i++)
     {
         int key = A[i];
-        for(int)
+        for(int j = i - 1; j > 0 && A[i] < A[j]; j--)
+        A
+
     }
 }
