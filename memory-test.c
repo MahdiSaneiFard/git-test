@@ -8,8 +8,13 @@ int main(void)
     printf("%p\n", &s);
     printf("%d\n", *(p+5));
     char* d = "a";
-    char* l = (d+3);
-    printf("%c\n", *(d+3));
+    for(int u = 1, u < 4, u++)
+    {
+        char* l = (d+u);
+        printf("%c\n", *(d+u));
+
+    }
+
 }
 
 
