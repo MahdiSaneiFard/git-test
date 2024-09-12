@@ -4,5 +4,6 @@ int main(void)
 {
     printf("ready\n");
     char *s = "hey";
-    printf("%i\n", &s);
+    int* p = &s;
+    printf("%i\n", p);
 }
