@@ -6,5 +6,5 @@ int main(void)
     int s = 1;
     int* p = &s;
     printf("%p\n", &s);
-    printf("%i\n", *(p+5));
+    printf("%d\n", *(p+5));
     }
