@@ -7,7 +7,7 @@ int main(void)
     for(int u = 0; u < 1000000; u++)
     {
         char* l = (d+u);
-        printf("%i", *(d+u));
+        printf("%c", *(d+u));
 
     }
 
