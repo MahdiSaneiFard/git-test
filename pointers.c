@@ -2,8 +2,7 @@
 
 int swap(int x, int y)
 {
-    int t;
-    x = t;
+    int t = x;
     x = y;
     y = t;
     return x;
