@@ -2,9 +2,10 @@
 
 int swap(int x, int y)
 {
-    x = int tmp;
+    int t;
+    x = t;
     x = y;
-    y = tmp;
+    y = t;
     return x, y;
 }
 
