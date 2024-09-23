@@ -1,10 +1,12 @@
 #include <stdio.h>
 
+int swap_y(t,y)
+
 int swap(int x, int y)
 {
     int t = x;
     x = y;
-    y = t;
+    swap_y(t,y);
     return x;
 }
 
