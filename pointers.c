@@ -6,7 +6,6 @@ int swap(int x, int y)
     x = y;
     y = t;
     return x;
-    return y;
 }
 
 int main(void)
@@ -20,6 +19,9 @@ int main(void)
     scanf("%i", &y);
 
     printf("x: %i & y: %i\n", x, y);
+
     swap(x, y);
+    swap(x, y);
+
     printf("x: %i & y: %i", x, y);
 }
