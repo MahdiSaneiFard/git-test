@@ -6,7 +6,7 @@ int swap(int x, int y)
     x = t;
     x = y;
     y = t;
-    return x, y;
+    return x;
 }
 
 int main(void)
