@@ -29,7 +29,7 @@ int main(void)
     swap(x, y);
     swap_y(t, y);
 
-    printf("x: %i & y: %i", x, y);
+    printf("x: %i & y: %i\n", x, y);
 
     int h;
     printf("intger: ");
@@ -38,5 +38,5 @@ int main(void)
     printf("%p\n", p);
     printf("%p\n", &h);
     printf("%i\n", *p);
-    printf("k)
+    printf("%i\n", h);
 }
