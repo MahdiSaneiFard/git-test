@@ -30,4 +30,11 @@ int main(void)
     swap_y(t, y);
 
     printf("x: %i & y: %i", x, y);
+
+    int h;
+    printf("intger: ");
+    scanf("%i", &h);
+    int *p = &h;
+    printf("%p", p);
+    printf("%p", &h);
 }
