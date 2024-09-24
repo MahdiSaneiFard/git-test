@@ -35,6 +35,8 @@ int main(void)
     printf("intger: ");
     scanf("%i", &h);
     int *p = &h;
-    printf("%p", p);
-    printf("%p", &h);
+    printf("%p\n", p);
+    printf("%p\n", &h);
+    printf("%i\n", *p);
+    printf("k)
 }
