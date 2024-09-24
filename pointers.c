@@ -39,4 +39,9 @@ int main(void)
     printf("%p\n", &h);
     printf("%i\n", *p);
     printf("%i\n", h);
+    printf("---------\n");
+    int *i = p;
+    int *ii = i;
+    printf("%p\n", i);
+    printf("%p\n", ii);
 }
