@@ -35,13 +35,13 @@ int main(void)
     printf("intger: ");
     scanf("%i", &h);
     int *p = &h;
-    printf("%p\n", p);
-    printf("%p\n", &h);
-    printf("%i\n", *p);
-    printf("%i\n", h);
+    printf("1:%p\n", p);
+    printf("2:%p\n", &h);
+    printf("3:%i\n", *p);
+    printf("4:%i\n", h);
     printf("---------\n");
     int *i = p;
     int *ii = i;
-    printf("%p\n", i);
-    printf("%p\n", ii);
+    printf("5:%p\n", i);
+    printf("6:%p\n", ii);
 }
