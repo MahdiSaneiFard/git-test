@@ -44,4 +44,12 @@ int main(void)
     int *ii = i;
     printf("5:%p\n", i);
     printf("6:%p\n", ii);
+
+    int *lp = NULL;
+    printf("%p\n", lp);
+    int *o = NULL;
+    printf("%i", *o);
+
+
+
 }
