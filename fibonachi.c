@@ -13,8 +13,9 @@ int main(void)
 
 int fibonachi(int i, int *a)
 {
-    *a = 1;
-    *a[1] = 1;
-    a[i-1] = a[i-2] + a[i-3];
-    return a[i-1];
+    *(a) = 1;
+    *(a+4) = 1;
+    *(a+(i*4)-4) = *(a+(i*4)-8)+ *(a+(i*4)-12);
+    i--;
+    return *(a+(i*4)-4);
 }
