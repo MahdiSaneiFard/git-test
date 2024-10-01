@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 int fibonachi(int i, int *a);
+int main2(void);
 int main(void)
 {
     int user_input;
