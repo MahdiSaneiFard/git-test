@@ -10,7 +10,7 @@ int main(int argv, char *argc[])
 
     for(int i = 0; i < 3; i += 1)
     {
-        printf("%i is your number", arrey[i]);
+        printf("%i is your number /// ", arrey[i]);
     }
     printf("\n");
 }
