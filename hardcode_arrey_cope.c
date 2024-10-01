@@ -23,12 +23,14 @@ int main(int argv, char *argc[])
         p[n] = arrey[n];
     }
     p[3] = 4;
-    
+
+
     for(int i = 0; i < 4; i += 1)
     {
         printf("%i is your number /// ", p[i]);
     }
     printf("\n");
+    free(p);
 
 
 }
