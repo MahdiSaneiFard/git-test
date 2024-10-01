@@ -13,4 +13,9 @@ int main(int argv, char *argc[])
         printf("%i is your number /// ", arrey[i]);
     }
     printf("\n");
+    int *p = malloc(4 * sizeof(int));
+    for(n = 0; n < 4; n++)
+    {
+        
+    }
 }
