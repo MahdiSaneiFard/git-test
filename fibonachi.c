@@ -6,7 +6,8 @@ int main(void)
     int user_input;
     printf("how many number do you need \n:");
     scanf("%i", &user_input);
-    int *l = int a[i];
+    int a[user_input];
+    int *l = &a[1];
     printf("%i\n", fibonachi(user_input,l));
 }
 
