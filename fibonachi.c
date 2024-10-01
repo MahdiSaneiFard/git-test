@@ -7,13 +7,13 @@ int main(void)
     printf("how many number do you need \n:");
     scanf("%i", &user_input);
     int a[user_input];
-    printf("%i\n", fibonachi(user_input));
+    printf("%i\n", fibonachi(user_input,int *p = &a[user_input - 1];));
 }
 
-int fibonachi(int i)
+int fibonachi(int i, int *a)
 {
-    a[0] = 1;
-    a[1] = 1;
-    a[i-1] = a[i-2] + a[i-3];
+    *a[0] = 1;
+    *a[1] = 1;
+    *a[i-1] = *a[i-2] + *a[i-3];
     return a[i-1];
 }
