@@ -1,17 +1,17 @@
 #include <stdio.h>
 
-int fibonachi(int i);
+int fibonachi(int i,int *a);
 int main(void)
 {
     int user_input;
     printf("how many number do you need \n:");
     scanf("%i", &user_input);
-    printf("%i\n", fibonachi(user_input));
+    int *l = int a[i];
+    printf("%i\n", fibonachi(user_input,l));
 }
 
-int fibonachi(int i)
+int fibonachi(int i,int *a)
 {
-    int a[i];
     a[0] = 1;
     a[1] = 1;
     a[i-1] = a[i-2] + a[i-3];
