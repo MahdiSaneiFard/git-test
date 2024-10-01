@@ -14,7 +14,12 @@ int main(int argv, char *argc[])
     }
     printf("\n");
     int *p = malloc(4 * sizeof(int));
-    for(int n = 0; n < 4; n++)
+    if (p == NULL)
+    {
+        free (p);
+        return 1;
+    }
+    for(int n = 0 ; n < 4; n++)
     {
         *p[n] = arrey[n];
     }
