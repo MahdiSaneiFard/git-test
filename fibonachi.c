@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 int fibonachi(int i, int *a);
 int main(void)
 {
@@ -18,4 +19,10 @@ int fibonachi(int i, int *a)
     *(a+(i*4)-4) = *(a+(i*4)-8)+ *(a+(i*4)-12);
     i--;
     return *(a+(i*4)-4);
+}
+
+int main2(void)
+{
+    int l = 8
+    
 }
