@@ -11,7 +11,7 @@ int main(void)
     int a[user_input];
     int *p = malloc(4 * user_input);
     printf("%i\n", fibonachi(user_input,p));
-    int main2(void);
+    main2();
 }
 
 int fibonachi(int i, int *a)
