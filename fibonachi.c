@@ -13,8 +13,8 @@ int main(void)
 
 int fibonachi(int i, int *a)
 {
-    a[0] = 1;
-    a[1] = 1;
+    *a = 1;
+    *a[1] = 1;
     a[i-1] = a[i-2] + a[i-3];
     return a[i-1];
 }
