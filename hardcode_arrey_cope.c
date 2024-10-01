@@ -18,7 +18,7 @@ int main(int argv, char *argc[])
     {
         return 1;
     }
-    for(int n = 0 , *p[3] = 4; n < 4; n++)
+    for(int n = 0 , p[3] = 4; n < 4; n++)
     {
         p[n] = arrey[n];
     }
