@@ -23,6 +23,10 @@ int fibonachi(int i, int *a)
 
 int main2(void)
 {
-    int l = 8
-    
+    int l = 8;
+    int y[l];
+    y[0]=1;
+    y[1]=1;
+    y[l-1] = y[l-2] + y[l-3];
+    return y[l-1];
 }
