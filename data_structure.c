@@ -16,20 +16,21 @@ int main(void)
     return 1;
     scanf("%s", group);
     node *list = NULL;
-    node *n = malloc(sizeof(node));
-    if (n == NULL)
-    {
-        return 1;
-        free(group);
-    }
+
 
     for(int i = strlen(group)-1; i >= 0; i--)
     {
-        int NUM = atoi(group[i]);
+        node *n = malloc(sizeof(node));
+        if (n == NULL)
+        {
+            return 1;
+            free(group);
+        }
+        int NUM = group[i];
         n->Number = NUM;
         n->Next = list;
         list = n;
-        printf("%i", (*n).Number);
+        printf("%c", (*n).Number);
     }
     printf("\n");
 
