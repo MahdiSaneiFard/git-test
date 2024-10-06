@@ -26,7 +26,7 @@ int main(void)
             return 1;
             free(group);
         }
-        int NUM = group[i];
+        int NUM = atoi(&group[i]);
         n->Number = NUM;
         n->Next = list;
         list = n;
@@ -34,7 +34,7 @@ int main(void)
     node *ptr = list;
     while (ptr != NULL)
     {
-        printf("%c", ptr->Number);
+        printf("%i\n", ptr->Number);
         ptr = ptr->Next;
     }
     printf("\n");
