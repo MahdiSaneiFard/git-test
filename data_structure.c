@@ -21,7 +21,7 @@ int main(void)
     return 1;
     for(int i = strlen(group)-1; i >= 0; i--)
     {
-        n->Number = atoi(*group[i]);
+        n->Number = atoi(group[i]);
         n->Next = list;
         list = n;
         printf("%i", (*n).Number);
