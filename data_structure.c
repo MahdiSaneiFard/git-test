@@ -13,8 +13,8 @@ int main(void)
     printf("enter the number :");
     char *group = malloc(4 * sizeof(int));
     scanf("%s", group);
-    int *list = NULL;
-    node *n;
+    node *list = NULL;
+    node *n = NULL;
     for(int i = strlen(group); i > 0; i++)
     {
         n->Number = group[i];
