@@ -4,7 +4,7 @@
 
 typedef struct node
 {
-    char Number;
+    int Number;
     struct node *Next;
 } node;
 
@@ -21,10 +21,10 @@ int main(void)
     return 1;
     for(int i = strlen(group)-1; i >= 0; i--)
     {
-        n->Number = group[i];
+        n->Number = atoi(*group[i]);
         n->Next = list;
         list = n;
-        printf("%c", (*n).Number);
+        printf("%i", (*n).Number);
     }
     printf("\n");
 
