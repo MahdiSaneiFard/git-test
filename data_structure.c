@@ -15,7 +15,7 @@ int main(void)
     scanf("%s", group);
     node *list = NULL;
     node *n = NULL;
-    for(int i = strlen(group); i > 0; i++)
+    for(int i = strlen(group)-1; i >= 0; i--)
     {
         n->Number = group[i];
         n->Next = list;
