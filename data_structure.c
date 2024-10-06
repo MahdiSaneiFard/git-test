@@ -30,7 +30,12 @@ int main(void)
         n->Number = NUM;
         n->Next = list;
         list = n;
-        printf("%c", (*n).Number);
+    }
+    node *ptr = list;
+    while (ptr != NULL)
+    {
+        printf("%c", ptr->Number);
+        ptr = ptr->Next;
     }
     printf("\n");
 
