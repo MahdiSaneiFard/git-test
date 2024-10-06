@@ -14,7 +14,7 @@ int main(void)
     char *group = malloc(4 * sizeof(int));
     scanf("%s", group);
     node *list = NULL;
-    node *n = NULL;
+    node *n = group;
     for(int i = strlen(group)-1; i >= 0; i--)
     {
         n->Number = group[i];
