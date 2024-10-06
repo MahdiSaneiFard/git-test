@@ -11,7 +11,7 @@ typedef struct node
 int main(void)
 {
     printf("enter the number :");
-    char *group = malloc(4 * sizeof(int));
+    const char *group = malloc(4 * sizeof(int));
     if (group == NULL)
     return 1;
     scanf("%s", group);
