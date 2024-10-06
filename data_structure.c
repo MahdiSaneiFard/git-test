@@ -11,7 +11,7 @@ typedef struct node
 int main(void)
 {
     printf("enter the number :");
-    const char *group = malloc(4 * sizeof(int));
+    char *group = malloc(sizeof(int));
     if (group == NULL)
     return 1;
     scanf("%s", group);
@@ -26,7 +26,7 @@ int main(void)
             return 1;
             free(group);
         }
-        int NUM = atoi(group[i]);
+        int NUM = group[i];
         n->Number = NUM;
         n->Next = list;
         list = n;
@@ -34,9 +34,9 @@ int main(void)
     node *ptr = list;
     while (ptr != NULL)
     {
-        printf("%i\n", ptr->Number);
+        printf("%c", ptr->Number);
         ptr = ptr->Next;
     }
-    printf("\n");
+    printf("\n\n");
 
 }
