@@ -12,10 +12,12 @@ int main(void)
     char *group = malloc(4 * sizeof(int));
     scanf("%s", group);
     int *list = NULL;
-    for(int i = strlen(), node *n; i > 0; i++)
+    for(int i = strlen(group), node *n; i > 0; i++)
     {
         n->number = group[i];
-        
+        n->Next = list;
+        list = n;
+
     }
 
 }
