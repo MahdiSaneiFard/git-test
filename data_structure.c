@@ -18,10 +18,15 @@ int main(void)
     node *list = NULL;
     node *n = malloc(sizeof(node));
     if (n == NULL)
-    return 1;
+    {
+        return 1;
+        free(group);
+    }
+
     for(int i = strlen(group)-1; i >= 0; i--)
     {
-        n->Number = atoi(group[i]);
+        int NUM = atoi(group[i]);
+        n->Number = NUM;
         n->Next = list;
         list = n;
         printf("%i", (*n).Number);
