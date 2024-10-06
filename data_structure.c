@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+
 typedef struct node
 {
     int Number;
     struct node *Next;
-} nude;
+} node;
 
 int main(void)
 {
@@ -12,9 +14,10 @@ int main(void)
     char *group = malloc(4 * sizeof(int));
     scanf("%s", group);
     int *list = NULL;
-    for(int i = strlen(group), node *n; i > 0; i++)
+    node *n;
+    for(int i = strlen(group); i > 0; i++)
     {
-        n->number = group[i];
+        n->Number = group[i];
         n->Next = list;
         list = n;
 
