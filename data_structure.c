@@ -26,7 +26,7 @@ int main(void)
             return 1;
             free(group);
         }
-        int NUM = atoi(&group[i]);
+        int NUM = atoi(group[i]);
         n->Number = NUM;
         n->Next = list;
         list = n;
