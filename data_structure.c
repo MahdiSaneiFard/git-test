@@ -4,7 +4,7 @@
 int main(void)
 {
     printf("enter the number :");
-    char *group = malloc(4 * sizeof(int)) ;
+    char *group = malloc(sizeof(int)) ;
     scanf("%s", group);
     printf("%s", group);
 }
