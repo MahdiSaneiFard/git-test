@@ -41,11 +41,11 @@ int main(int count ,char *name[])
                 o[i] = n;
             }
 
-
             l++;
         }while(l < count);
         ab[i].p = o[i];
     }
+    
 
 
 }
