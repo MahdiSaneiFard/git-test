@@ -3,7 +3,8 @@
 #include <string.h>
 
 //array
-int ab[26]={};
+for(int k =0; k < 26; k++)
+ab[k]=k+1;
 
 //node
 typedef struct node
