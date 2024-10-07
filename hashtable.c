@@ -4,7 +4,6 @@
 #include <ctype.h>
 
 //array
-
 typedef struct arr
 {
     int ST;
