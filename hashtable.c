@@ -43,12 +43,13 @@ int main(int count ,char *name[])
     }
     for(int i = 0; i <= 26; i++)
     {
+        node *c;
 
         int l = 1;
         do{
             node *n = malloc(sizeof(node));
             int f = toupper(name[i][0]) - 'A';
-
+            
 
             l++;
         }while(l <= count);
