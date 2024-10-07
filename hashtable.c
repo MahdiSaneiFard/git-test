@@ -19,7 +19,7 @@ int main(int count ,char *name[])
     arr ab[26];
     //array get the values as program data
     for(int k =0; k < 26; k++)
-    ab[k]->ST=k+1;
+    ab[k]->ST = k+1;
     for(int i; i < count; i++)
 
     for(int i = 1; i < count; i++)
