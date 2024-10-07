@@ -2,26 +2,21 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-
 //array
-
 typedef struct arr
 {
     int ST;
     struct node *p;
 }arr;
-
 //node
 typedef struct node
 {
     char *Name;
     struct node *Next;
 }node;
-
 int main(int count ,char *name[])
 {
     arr ab[26];
-
     //array get the values as program data
     for(int k =0; k < 26; k++)
     ab->ST[k]=k+1;
@@ -32,6 +27,5 @@ int main(int count ,char *name[])
         //check_first_letter
         int f = toupper(name[i][0]) - 'A';
         ab[i]->p = name [i]
-
     }
 }
