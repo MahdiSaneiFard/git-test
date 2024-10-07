@@ -25,10 +25,11 @@ int main(int count ,char *name[])
     for(int k =0; k < 26; k++)
     ab[k].ST=k+1;
 
+    node *o;
     for(int i = 0; i <= 2; i++)
     {
-        node *o[i];
-        o[i]= NULL;
+
+        o= NULL;
 
         int l = 1;
         do{
@@ -37,20 +38,15 @@ int main(int count ,char *name[])
             {
                 node *n = malloc(sizeof(node));
                 n->Name = name[l];
-                n->Next = o[i];
-                o[i] = n;
+                n->Next = o;
+                o = n;
             }
 
             l++;
         }while(l < count);
-        ab[i].p = o[i];
+        ab[i].p = o;
     }
-    node *ptr =
-    while (ptr != NULL)
-    {
-        
-    }
-    printf("\n\n");
+    
 
 
 }
