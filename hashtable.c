@@ -29,11 +29,13 @@ int main(int count ,char *name[])
     {
 
     }
-    for(int i = 1; i < count; i++)
+    for(int i = 1; i <= 26; i++)
     {
-        //check_first_letter
-        int f = toupper(name[i][0]) - 'A';
-
+        for(int k = 1; k <= count; k++)
+        {
+            //check_first_letter
+            int f = toupper(name[i][0]) - 'A';
+        }
         node *n = malloc(sizeof(node));
         n->Name = name[i];
         ab[i].p = n;

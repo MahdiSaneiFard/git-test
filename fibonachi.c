@@ -19,4 +19,5 @@ int fibonachi(int i)
     a[i-1] = a[i-2] + a[i-3];
     return a[i-1];
 }
-
+        //check_first_letter
+        int f = toupper(name[i][0]) - 'A';
