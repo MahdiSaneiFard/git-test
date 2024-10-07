@@ -27,7 +27,7 @@ int main(int count ,char *name[])
 
     for(int i = 1; i <=26 ; i++)
     {
-        int a
+        int a;
     }
     for(int i = 1; i <= 26; i++)
     {
@@ -43,15 +43,16 @@ int main(int count ,char *name[])
     }
     for(int i = 0; i <= 26; i++)
     {
-        node *c;
+        node *c[i];
 
         int l = 1;
         do{
-            node *n = malloc(sizeof(node));
+
             if(i == toupper(name[i][0]) - 'A')
             {
                 node *n = malloc(sizeof(node));
-                
+
+
             }
 
 
