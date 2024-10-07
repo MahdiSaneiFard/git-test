@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
 
 //array
 int ab[26];
@@ -21,8 +22,8 @@ int main(int count ,char *name[])
     for(int i = 1; i < count; i++)
     {
         //check_first_letter
-        name[i][0] = toupper(name[i][0]);
-        int l = atoi(f)
+        char f = toupper(name[i][1]);
+        int k = atoi(f);
 
     }
 }
