@@ -4,7 +4,12 @@
 #include <ctype.h>
 
 //array
-int ab[26];
+
+typedef struct arr
+{
+    int ST;
+    struct node *p;
+}arr;
 
 //node
 typedef struct node
@@ -15,9 +20,11 @@ typedef struct node
 
 int main(int count ,char *name[])
 {
+    arr ab[26];
+
     //array get the values as program data
     for(int k =0; k < 26; k++)
-    ab[k]=k+1;
+    ab->ST[k]=k+1;
 
     for(int i = 1; i < count; i++)
     {
