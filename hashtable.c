@@ -24,13 +24,13 @@ int main(int count ,char *name[])
 
     //array get the values as program data
     for(int k =0; k < 26; k++)
-    ab->ST=k+1;
+    ab[k].ST=k+1;
 
     for(int i = 1; i < count; i++)
     {
         //check_first_letter
         int f = toupper(name[i][0]) - 'A';
-        ab[i]->p = name [i]
+        ab[i].p = name [i]
 
     }
 }
