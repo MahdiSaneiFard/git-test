@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <string.h>
 
+typedef struct arr
+{
+    int num[26];
+    struct arr *link;
+}arr;
+
 //array
 int ab[26];
 
@@ -18,6 +24,6 @@ int main(int count ,char *name[])
     {
         //check_first_letter
         int f = toupper(name[i][1]);
-        
+
     }
 }
