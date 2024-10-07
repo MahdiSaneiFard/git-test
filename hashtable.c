@@ -7,7 +7,7 @@
 typedef struct arr
 {
     int ST;
-    char *p;
+    struct node *p;
 }arr;
 
 //node
@@ -27,12 +27,13 @@ int main(int count ,char *name[])
 
     for(int i = 1; i < count; i++)
     {
+        
+    }
+    for(int i = 1; i < count; i++)
+    {
         //check_first_letter
         int f = toupper(name[i][0]) - 'A';
         ab[i].p = name [i];
     }
-    for(int i = 1; i < count; i++)
-    {
-        
-    }
+
 }
