@@ -34,8 +34,8 @@ int main(int count ,char *name[])
         for(int k = 1; k <= count; k++)
         {
             //check_first_letter
-            if(toupper(name[i][0]) - 'A' = i-1)
-            
+            if(toupper(name[k][0]) - 'A' = i-1)
+
         }
         node *n = malloc(sizeof(node));
         n->Name = name[i];
