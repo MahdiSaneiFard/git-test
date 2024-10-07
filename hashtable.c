@@ -30,6 +30,8 @@ int main(int count ,char *name[])
         //check_first_letter
         int f = toupper(name[i][0]) - 'A';
         ab[i].p = name [i];
+
+        //linklist start point
         
 
     }
