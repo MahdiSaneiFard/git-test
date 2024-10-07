@@ -24,10 +24,10 @@ int main(int count ,char *name[])
     //array get the values as program data
     for(int k =0; k < 26; k++)
     ab[k].ST=k+1;
-    
+
     for(int i = 0; i <= 26; i++)
     {
-        node *c[i] =NULL;
+        node *c[i] = NULL;
 
         int l = 1;
         do{
