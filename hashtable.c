@@ -33,7 +33,11 @@ int main(int count ,char *name[])
     {
         //check_first_letter
         int f = toupper(name[i][0]) - 'A';
-        if()
+        if(i=1)
+        {
+            node *n = malloc(sizeof(node));
+            
+        }
     }
 
 }
