@@ -25,7 +25,7 @@ int main(int count ,char *name[])
     for(int k =0; k < 26; k++)
     ab[k].ST=k+1;
 
-    for(int i = 0; i <= 26; i++)
+    for(int i = 0; i <= 2; i++)
     {
         node *o[i];
         o[i]= NULL;
@@ -43,7 +43,8 @@ int main(int count ,char *name[])
 
 
             l++;
-        }while(l <= count);
+        }while(l < count);
+        ab[i].p = o[i];
     }
 
 
