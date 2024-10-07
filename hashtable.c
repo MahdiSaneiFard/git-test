@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <strlib.h>
+#include <string.h>
 
 //node
 typedef struct node
