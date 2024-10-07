@@ -35,8 +35,8 @@ int main(int count ,char *name[])
         int f = toupper(name[i][0]) - 'A';
 
         node *n = malloc(sizeof(node));
-        n.Name = name[i];
-        array.p = n;
+        n->Name = name[i];
+        ab[i].p = n;
     }
 
 }
