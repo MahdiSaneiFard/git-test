@@ -48,8 +48,12 @@ int main(int count ,char *name[])
         int l = 1;
         do{
             node *n = malloc(sizeof(node));
-            int f = toupper(name[i][0]) - 'A';
-            
+            if(i == toupper(name[i][0]) - 'A')
+            {
+                node *n = malloc(sizeof(node));
+                
+            }
+
 
             l++;
         }while(l <= count);
