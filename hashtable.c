@@ -36,7 +36,7 @@ int main(int count ,char *name[])
 
         node *n = malloc(sizeof(node));
         n.Name = name[i];
-        n.p 
+        array.p = n;
     }
 
 }
