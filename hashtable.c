@@ -17,7 +17,7 @@ typedef struct node
     struct node *Next;
 }node;
 
-int main(int count ,char *name[])
+int main(int count ,node *name.Name[])
 {
     arr ab[26];
 
@@ -27,7 +27,7 @@ int main(int count ,char *name[])
 
     for(int i = 1; i < count; i++)
     {
-        
+
     }
     for(int i = 1; i < count; i++)
     {
