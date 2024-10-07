@@ -21,7 +21,8 @@ int main(int count ,char *name[])
     for(int i = 1; i < count; i++)
     {
         //check_first_letter
-        int f = atoi(toupper(name[i][1]));
+        char f = toupper(name[i][1]);
+        int l = atoi(f);
 
     }
 }
