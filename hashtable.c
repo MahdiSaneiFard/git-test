@@ -15,7 +15,7 @@ typedef struct node
 
 int main(int count ,char *name[])
 {
-    //array get the values
+    //array get the values as program data
     for(int k =0; k < 26; k++)
     ab[k]=k+1;
 
