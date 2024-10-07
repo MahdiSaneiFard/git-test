@@ -5,7 +5,7 @@
 typedef struct sname
 {
     char *name;
-    struct sname *link;
+    int *link;
 }sname;
 
 //array
@@ -24,6 +24,7 @@ int main(int count ,char *name[])
     {
         //check_first_letter
         int f = atoi(toupper(name[i][1]));
+
 
     }
 }
