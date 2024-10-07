@@ -2,14 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-typedef struct sname
-{
-    char *name;
-    int *link;
-}sname;
-
 //array
-int ab[26];
+int ab[26]={};
 
 //node
 typedef struct node
@@ -24,7 +18,6 @@ int main(int count ,char *name[])
     {
         //check_first_letter
         int f = atoi(toupper(name[i][1]));
-
 
     }
 }
