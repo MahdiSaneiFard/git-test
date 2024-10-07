@@ -23,7 +23,7 @@ int main(int count ,char *name[])
     {
         //check_first_letter
         int f = toupper(name[i][0]) - 'A';
-        printf("%i",f);
+        name[f]
 
     }
 }
