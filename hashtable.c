@@ -25,18 +25,9 @@ int main(int count ,char *name[])
     for(int k =0; k < 26; k++)
     ab[k].ST=k+1;
 
-    for(int i = 1; i <=26 ; i++)
-    {
-        int a;
-    }
     for(int i = 1; i <= 26; i++)
     {
-        for(int k = 1; k < count; k++)
-        {
-            //check_first_letter
-            if(toupper(name[k][0]) - 'A' = i-1)
 
-        }
         node *n = malloc(sizeof(node));
         n->Name = name[i];
         ab[i].p = n;
@@ -48,10 +39,11 @@ int main(int count ,char *name[])
         int l = 1;
         do{
 
-            if(i == toupper(name[i][0]) - 'A')
+            if(i == toupper(name[l][0]) - 'A')
             {
                 node *n = malloc(sizeof(node));
-
+                n->Name = name[l];
+                
 
             }
 
