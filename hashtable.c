@@ -41,6 +41,14 @@ int main(int count ,char *name[])
         n->Name = name[i];
         ab[i].p = n;
     }
+    for(int i = 0; i <= 26; i++)
+    {
+        int l = 0;
+        do{
+            int f = toupper(name[i][0]) - 'A';
+            l++
+        }while(l < count)
+    }
 
 
 }
