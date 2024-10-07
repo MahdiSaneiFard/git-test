@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <string.h>
 
-typedef struct arr
+typedef struct sname
 {
-    int num[26];
-    struct arr *link;
-}arr;
+    char *name;
+    struct sname *link;
+}sname;
 
 //array
 int ab[26];
