@@ -27,7 +27,8 @@ int main(int count ,char *name[])
 
     for(int i = 0; i <= 26; i++)
     {
-        node *c[i] = NULL;
+        node *o[i];
+        o[i]= NULL;
 
         int l = 1;
         do{
@@ -36,9 +37,8 @@ int main(int count ,char *name[])
             {
                 node *n = malloc(sizeof(node));
                 n->Name = name[l];
-                n->Next = c[i];
-
-
+                n->Next = o[i];
+                o[i] = n;
             }
 
 
