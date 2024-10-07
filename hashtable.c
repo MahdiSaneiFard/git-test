@@ -3,8 +3,7 @@
 #include <string.h>
 
 //array
-for(int k =0; k < 26; k++)
-ab[k]=k+1;
+int ab[26];
 
 //node
 typedef struct node
@@ -15,6 +14,10 @@ typedef struct node
 
 int main(int count ,char *name[])
 {
+    //array get the values
+    for(int k =0; k < 26; k++)
+    ab[k]=k+1;
+
     for(int i = 1; i < count; i++)
     {
         //check_first_letter
