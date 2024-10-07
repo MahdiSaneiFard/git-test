@@ -11,8 +11,8 @@ typedef struct node
 
 int main(int count ,char *name[])
 {
-    for(int i = 0; i < count; i++)
+    for(int i = 1; i < count; i++)
     {
-        printf("%s", name[i]);
+        
     }
 }
