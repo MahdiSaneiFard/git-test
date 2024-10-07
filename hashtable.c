@@ -23,7 +23,7 @@ int main(int count ,char *name[])
     {
         //check_first_letter
         char f = toupper(name[i][0]);
-        int k = atoi(&f);
+        int k = atoi(f);
         printf("%i",k);
 
     }
