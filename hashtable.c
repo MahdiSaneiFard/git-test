@@ -45,7 +45,12 @@ int main(int count ,char *name[])
         }while(l < count);
         ab[i].p = o[i];
     }
-    
+    node *ptr =
+    while (ptr != NULL)
+    {
+        
+    }
+    printf("\n\n");
 
 
 }
