@@ -26,7 +26,7 @@ int main(int count ,char *name[])
     ab[k].ST=k+1;
 
     node *o;
-    for(int i = 0; i <= 2; i++)
+    for(int i = 0; i <= 26; i++)
     {
 
         o= NULL;
@@ -46,7 +46,14 @@ int main(int count ,char *name[])
         }while(l < count);
         ab[i].p = o;
     }
-    
-
-
+    node *ptr = o;
+    while (ptr != NULL)
+    {
+        for(int i = 0; i < count; i++)
+        {
+            printf("%s", ptr->Name);
+            ptr = ptr->Next;
+        }
+    }
+    printf("\n\n");
 }
