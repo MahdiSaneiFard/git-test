@@ -29,8 +29,8 @@ int main(int count ,char *name[])
     for(int i = 0; i <= 26; i++)
     {
         o= NULL;
-
         int l = 1;
+        
         do{
 
             if(i == toupper(name[l][0]) - 'A')
