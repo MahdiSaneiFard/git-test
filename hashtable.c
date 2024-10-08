@@ -56,5 +56,5 @@ int main(int count ,char *name[])
             ptr = ptr->Next;
         }
     }
-    printf("\n\n<<<<-------------->>>>\n");
+    printf("\n\n<<<<------------------>>>>\n");
 }
