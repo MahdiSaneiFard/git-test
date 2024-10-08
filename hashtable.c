@@ -49,11 +49,7 @@ int main(int count ,char *name[])
     node *ptr = o;
     while (ptr != NULL)
     {
-        for(int i = 0; i < count; i++)
-        {
-            printf("%s", ptr->Name);
-            ptr = ptr->Next;
-        }
+        
     }
     printf("\n\n");
 }
