@@ -51,7 +51,7 @@ int main(int count ,char *name[])
     node *ptr = ab[a].p;
         while (ptr != NULL)
         {
-            printf("%s", ptr->Name);
+            printf("%s ", ptr->Name);
             ptr = ptr->Next;
         }
     }
