@@ -26,7 +26,7 @@ int main(int count ,char *name[])
     ab[k].ST=k+1;
 
     node *o;
-    for(int i = 0; i <= 26; i++)
+    for(int i = 26; i >= 0; i--)
     {
         o= NULL;
         int l = 1;
