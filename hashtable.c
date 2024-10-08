@@ -46,10 +46,13 @@ int main(int count ,char *name[])
         }while(l < count);
         ab[i].p = o;
     }
-    node *ptr = o;
-    while (ptr != NULL)
+    for(int a = 0; a <= 26; a++)
     {
-        
+    node *ptr = ab[a];
+        while (ptr != NULL)
+        {
+
+        }
     }
     printf("\n\n");
 }
