@@ -20,19 +20,19 @@ typedef struct node
 int main(int count ,char *name[])
 {
     arr ab[26];
-
     //array get the values as program data
     for(int k =0; k < 26; k++)
     ab[k].ST=k+1;
 
+    //First considering alphabet
     node *o;
     for(int i = 0; i <= 26; i++)
     {
         o= NULL;
         int l = 1;
-
+        //Loop Without returing
         do{
-
+            //Linked List Creating
             if(i == toupper(name[l][0]) - 'A')
             {
                 node *n = malloc(sizeof(node));
@@ -40,12 +40,12 @@ int main(int count ,char *name[])
                 n->Next = o;
                 o = n;
             }
-
             l++;
         }while(l < count);
         ab[i].p = o;
     }
 
+    //Printing in interface
     for(int a = 0; a <= 26; a++)
     {
     node *ptr = ab[a].p;
