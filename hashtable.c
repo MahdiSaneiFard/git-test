@@ -30,7 +30,7 @@ int main(int count ,char *name[])
     {
         o= NULL;
         int l = 1;
-        
+
         do{
 
             if(i == toupper(name[l][0]) - 'A')
@@ -55,5 +55,5 @@ int main(int count ,char *name[])
             ptr = ptr->Next;
         }
     }
-    printf("\n\n");
+    printf("\n\n--------------\n");
 }
