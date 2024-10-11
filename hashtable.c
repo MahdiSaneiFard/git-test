@@ -19,6 +19,7 @@ typedef struct node
 
 int main(int count ,char *name[])
 {
+    return 1;
     arr ab[26];
     //array get the values as program data
     for(int k =0; k < 26; k++)
