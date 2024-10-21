@@ -27,7 +27,7 @@ int main(int count ,char *name[])
 
     //First considering alphabet
     node *o;
-    for(int i = 0; i <= 26; i++)
+    for(int i = 0; i <= 2; i++)
     {
         o= NULL;
         int l = 1;
@@ -47,9 +47,9 @@ int main(int count ,char *name[])
     }
 
     //Printing in interface
-    for(int a = 0; a <= 26; a++)
+    for(int a = 0; a <= 2; a++)
     {
-    node *ptr = ab[a].p;
+        node *ptr = ab[a].p;
         while (ptr != NULL)
         {
             printf("%c: ", ab[a].ST+64);
