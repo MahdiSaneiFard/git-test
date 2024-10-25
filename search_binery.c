@@ -18,9 +18,12 @@ int main(int countity, char *argev[])
         else
         return
     }
-    for(i=0; i < len; i++)
+    for(int k = 0; k < countity; k += 1)
     {
-        array[i]
+        for(i=0; i < len; i++)
+        {
+            array[k][i] = target[i];
+        }
     }
 
 }
