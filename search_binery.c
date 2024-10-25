@@ -1,14 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
-typedef struct node
-{
-    char *Name;
-    struct node *Next;
-}node;
-
 int main(int countity, char *argev[])
 {
+    char *array[countity];
     printf("what you want to search here : ");
     char target[10];
     scanf("%s", target);
@@ -18,10 +13,14 @@ int main(int countity, char *argev[])
     {
         if(strlen(argev[i] == len))
         {
-            *Name
+            array[i] = argev[i];
         }
-
-
+        else
+        return
+    }
+    for(i=0; i < len; i++)
+    {
+        
     }
 
 }
