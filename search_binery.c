@@ -29,6 +29,11 @@ int main(int countity, char *argev[])
             }
 
         }
+
+    }
+    for(int i=0; i < len; i++)
+    {
+        printf("%s",ans[i]);
     }
 
 
