@@ -11,16 +11,14 @@ int main(int countity, char *argev[])
 
     for(int i = 0; i < countity; i += 1)
     {
-        if(strlen(argev[i] == len))
+        if(strlen(argev[i]) == len)
         {
             array[i] = argev[i];
         }
-        else
-        return
     }
     for(int k = 0; k < countity; k += 1)
     {
-        for(i=0; i < len; i++)
+        for(int i=0; i < len; i++)
         {
             array[k][i] = target[i];
         }
