@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
+typedef struct node
+{
+    char *Name;
+    struct node *Next;
+}node;
+
 int main(int countity, char *argev[])
 {
     printf("what you want to search here : ");
@@ -12,7 +18,7 @@ int main(int countity, char *argev[])
     for(int i = 0; i < countity; i += 1)
     {
         if(strlen(argev[i] == len))
-        
+
 
     }
 
