@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main(int argec[], char *argev)
+int main(argec[], char *argev)
 {
+    printf("kl");
 
 }
