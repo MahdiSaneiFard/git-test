@@ -1,4 +1,4 @@
-a = input('num 1' + ':')
-b = input('num2' + ':')
+a = 2^int(input('num 1' + ':'))
+b = 3^int(input('num2' + ':'))
 
-print(int(a) + int(b))
+print(3*a+4*b)
