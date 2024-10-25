@@ -20,7 +20,7 @@ int main(int countity, char *argev[])
     }
     for(i=0; i < len; i++)
     {
-        
+        array[i]
     }
 
 }
