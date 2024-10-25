@@ -1,7 +1,10 @@
 #include <stdio.h>
 
-int main(argec[], char *argev)
+int main(int countity, char *argev[])
 {
-    printf("kl");
+    for(int i = 0; i < countity; i += 1)
+    {
+        
+    }
 
 }
