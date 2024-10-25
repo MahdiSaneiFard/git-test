@@ -16,12 +16,16 @@ int main(int countity, char *argev[])
             array[i] = argev[i];
         }
     }
-    for(int k = 0; k < countity; k += 1)
+    for(int k = 0, char *ans[len]; k < countity; k += 1)
     {
         for(int i=0; i < len; i++)
         {
-            array[k][i] = target[i];
+            if(array[k][i] = target[i]){
+                ans[i] = array[k][i];
+            }
+
         }
     }
+    
 
 }
