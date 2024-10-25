@@ -17,7 +17,7 @@ int main(int countity, char *argev[])
         }
     }
     char *ans[len];
-    ans[len] = NULL;
+    ans[len-1] = NULL;
     for(int k = 0; k < countity; k += 1)
     {
 
@@ -33,9 +33,11 @@ int main(int countity, char *argev[])
     }
     for(int i=0; i < len; i++)
     {
-        if(ans[len] != NULL)
+        if(ans[len-1] != NULL)
         printf("%s",ans[i]);
     }
+    if(ans[len-1] == NULL)
+    printf("1");
 
 
 }
