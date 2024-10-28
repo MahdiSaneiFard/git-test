@@ -9,7 +9,7 @@ def creating_qrcode(link):
     img.save("qrcode_image.png", "PNG")
 
 def open_pic():
-    print(open("qrcode_image.png").read())
+    print(open("qrcode_image.png", "r").read())
 
 def main():
     link = get_Link()
