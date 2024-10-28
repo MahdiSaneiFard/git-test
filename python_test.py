@@ -1,4 +1,5 @@
 import qrcode
+from PIL import Image
 
 def get_Link():
     link = input("enter your link : ")
@@ -9,7 +10,8 @@ def creating_qrcode(link):
     img.save("qrcode_image.png", "PNG")
 
 def open_pic():
-    print(open("qrcode_image.png", "r").read())
+    img = Image.open('qrcode_image.png')
+    img.show()
 
 def main():
     link = get_Link()
