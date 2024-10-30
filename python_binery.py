@@ -4,9 +4,9 @@ print("what operation you want to do with your numbers in binery")
 operation = input("sum : 's' , mines : 'm' ")
 while operation is not("m" or 's'):
     operation = input("sum : 's' , mines : 'm' ")
-print(bin(first_num))
-print(bin(secound_num))
+print(format(first_num, 'b'))
+print(format(secound_num, 'b'))
 if operation == "m" :
-    print(bin(first_num + secound_num))
+    print(format(first_num - secound_num ,'b'))
 else :
-    print(bin(first_num + secound_num))
+    print(format(first_num + secound_num) ,'b')
