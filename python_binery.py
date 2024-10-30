@@ -6,5 +6,7 @@ while operation is not("m" or 's'):
     operation = input("sum : 's' , mines : 'm' ")
 print(bin(first_num))
 print(bin(secound_num))
-print(bin(first_num + secound_num))
-
+if operation == "m" :
+    print(bin(first_num + secound_num))
+else :
+    print(bin(first_num + secound_num))
