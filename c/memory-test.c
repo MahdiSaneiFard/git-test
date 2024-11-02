@@ -3,11 +3,11 @@
 int main(void)
 {
     printf("ready\n");
-    char* d = "abbbbbbbb";
+    int d = 1;
     for(int u = 0; u < 1000; u++)
     {
-        char* l = (d+u);
-        printf("%c", *(d+u));
+        int l = (d+u);
+        printf("%i", (d+u));
     }
     printf("%p\n", &d);
 
