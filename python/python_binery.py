@@ -5,7 +5,6 @@ def check():
         check()
     else :
         return first_num
-
 check()
 first_num = int(input("enter your first number "))
 secound_num = int(input("enter your secound number "))
