@@ -8,6 +8,4 @@ int main(void)
         scanf("%i", &x[i]);
     if(x[0]>0 && x[1]>0 && x[2]>0)
     printf("in first \n");
-    int INT = 9;
-    printf("%d\n", INT);
 }
