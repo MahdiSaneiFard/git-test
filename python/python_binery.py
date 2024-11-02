@@ -11,3 +11,5 @@ if operation == "m" :
     print(format(first_num - secound_num ,'b'))
 else :
     print(format(first_num + secound_num) ,'b')
+x = input (" :")
+print(type(x))
