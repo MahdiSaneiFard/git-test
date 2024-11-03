@@ -21,12 +21,12 @@ list = ["s", "m"]
 operation = input("sum : 's' , mines : 'm' ")
 while operation not in list :
     operation = input("sum : 's' , mines : 'm' ")
+print(".....")
 print(format(first_num, 'b'))
 print(format(secound_num, 'b'))
 if operation == "m" :
-    print(".....")
     print(format(first_num - secound_num ,'b'))
-    print(".....\n.....")
+    print(".....\n-^^^^^^-")
     print("for '-' in at the beging of a binery put the binery number at the end ")
 
 else :
