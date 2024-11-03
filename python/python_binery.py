@@ -24,6 +24,10 @@ while operation not in list :
 print(format(first_num, 'b'))
 print(format(secound_num, 'b'))
 if operation == "m" :
+    print(".....")
     print(format(first_num - secound_num ,'b'))
+    print(".....\n.....")
+    print("for '-' in at the beging of a binery put the binery number at the end ")
+
 else :
     print(format(first_num + secound_num) ,'b')
