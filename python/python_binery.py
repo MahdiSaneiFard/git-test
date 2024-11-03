@@ -14,8 +14,8 @@ def check_first():
     except ValueError :
         print("err")
         check_first()
-check_first()
-check_second()
+first_num = check_first()
+secound_num = check_second()
 print("what operation you want to do with your numbers in binery")
 list = ["s", "m"]
 operation = input("sum : 's' , mines : 'm' ")
