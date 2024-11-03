@@ -1,3 +1,11 @@
+def check_second():
+    second_num = input("enter your second number ")
+    try:
+        second_num = int(second_num)
+        return second_num
+    except ValueError :
+        print("err")
+        check_second()
 def check_first():
     first_num = input("enter your first number ")
     try:
@@ -8,7 +16,6 @@ def check_first():
         check_first()
 check_first()
 check_second()
-secound_num = int(input("enter your secound number "))
 print("what operation you want to do with your numbers in binery")
 list = ["s", "m"]
 operation = input("sum : 's' , mines : 'm' ")
@@ -20,4 +27,3 @@ if operation == "m" :
     print(format(first_num - secound_num ,'b'))
 else :
     print(format(first_num + secound_num) ,'b')
-x = input (" :")
