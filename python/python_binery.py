@@ -6,7 +6,7 @@ def check():
     else :
         return first_num
 check()
-first_num = int(input("enter your first number "))
+
 secound_num = int(input("enter your secound number "))
 print("what operation you want to do with your numbers in binery")
 list = ["s", "m"]
