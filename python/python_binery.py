@@ -1,12 +1,13 @@
-def check():
+def check_first():
     first_num = input("enter your first number ")
-    if int(first_num) == True:
+    try:
+        first_num = int(first_num)
         return first_num
     except ValueError :
         print("err")
-        check()
-check()
-
+        check_first()
+check_first()
+check_second()
 secound_num = int(input("enter your secound number "))
 print("what operation you want to do with your numbers in binery")
 list = ["s", "m"]
