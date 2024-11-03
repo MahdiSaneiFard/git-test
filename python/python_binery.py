@@ -1,10 +1,10 @@
 def check():
     first_num = input("enter your first number ")
-    if int(first_num) == False:
+    if int(first_num) == True:
+        return first_num
+    except ValueError :
         print("err")
         check()
-    else :
-        return first_num
 check()
 
 secound_num = int(input("enter your secound number "))
