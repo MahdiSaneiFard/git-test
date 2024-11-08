@@ -11,7 +11,6 @@ int main()
     {
         printf("enter your number \n");
         scanf("%d", &o);
-        
-
+        sum = o + sum;
     }
 }
