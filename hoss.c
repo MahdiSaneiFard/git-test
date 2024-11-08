@@ -16,5 +16,5 @@ int main()
         scanf("%d", &o);
         sum = o + sum;
     }
-    printf("your number is %d", sum/l);
+    printf("your number is %d\n", sum/l);
 }
