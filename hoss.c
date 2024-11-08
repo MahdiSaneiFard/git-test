@@ -5,8 +5,11 @@ int main()
     int sum = 0;
     int l;
     int o;
+    k:
     printf("how many numbers do you want to know the averge of them ?\n");
     scanf("%d", &l);
+    if(l <= 0)
+    goto k;
     for(int i = 0; i < l; i++)
     {
         printf("enter your number \n");
