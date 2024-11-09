@@ -9,24 +9,9 @@ int main(void)
     char ca ,cb,cc;
     printf("by orther ");
     scanf("%c %c %c ", &ca, &cb ,&cc);
-
-    if(a > b)
+    if(ca == 'A')
     {
-        temp = a
-        a =b
-        b =temp
-    }
-    if(c<b)
-    {
-        if(c<a)
-        {
-            temp = a
-            a =c
-            c=temp
-            temp =c
-            c = b
-            b =temp
-        }
+        
     }
 
 }
