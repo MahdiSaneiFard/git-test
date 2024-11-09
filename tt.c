@@ -27,6 +27,7 @@ int main(void)
             b =temp;
         }
     }
+    printf("%d %d %d", a,b,c);
     int A = a;
     int B = b;
     int C = c;
