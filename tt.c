@@ -22,6 +22,19 @@ int main(void)
         a = c;
         c = temp;
         }
+        if(b > c)
+        {
+            temp = a;
+            a = b;
+            b = temp;
+        }
+
+    }
+    if(b > c)
+    {
+        temp = a;
+        a = b;
+        b = temp;
     }
     //printing the vailous
     int A = a;
