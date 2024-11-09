@@ -8,4 +8,9 @@ int main(void)
     printf("by orther :");
     char ca , cb, cc;
     scanf("%c %c %c", &ca, &cb ,&cc);
+
+    if(a < b)
+    {
+        
+    }
 }
