@@ -8,6 +8,7 @@ int main(void)
     scanf("%d %d %d ", &a, &b ,&c);
     printf("by orther ");
     scanf("%c %c %c ", &ca, &cb ,&cc);
+
     
 
 
