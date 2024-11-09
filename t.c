@@ -3,12 +3,13 @@
 
 int main(void)
 {
-    int a, b ,c ,ca ,cb,cc;
+    int a, b ,c;
     printf("nums :");
     scanf("%d %d %d ", &a, &b ,&c);
+    char 
     printf("by orther ");
     scanf("%c %c %c ", &ca, &cb ,&cc);
-    
+
     if(a > b)
     {
         temp = a
