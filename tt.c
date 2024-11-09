@@ -9,25 +9,27 @@ int main(void)
     char ca , cb, cc;
     scanf("%c %c %c", &ca, &cb ,&cc);
     int temp;
+    
+    //mortab mikone
     if(a > b)
     {
         temp = a;
-        a =b;
-        b =temp;
+        a = b;
+        b = temp;
     }
-    if(c<b)
+    if(c < b)
     {
-        if(c<a)
+        if(c < a)
         {
             temp = a;
-            a =c;
-            c=temp;
-            temp =c;
+            a = c;
+            c = temp;
+            temp = c;
             c = b;
-            b =temp;
+            b = temp;
         }
     }
-    printf("%d %d %d \\\\", a,b,c);
+    //printing the vailous
     int A = a;
     int B = b;
     int C = c;
