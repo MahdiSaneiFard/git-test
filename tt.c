@@ -9,7 +9,7 @@ int main(void)
     char ca , cb, cc;
     scanf("%c %c %c", &ca, &cb ,&cc);
     int temp;
-    
+    oii :
     //mortab mikone
     if(a > b)
     {
@@ -29,6 +29,7 @@ int main(void)
             b = temp;
         }
     }
+    goto oii;
     //printing the vailous
     int A = a;
     int B = b;
