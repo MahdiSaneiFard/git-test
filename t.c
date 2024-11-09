@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <sting.h>
 
 int main(void)
 {
@@ -26,9 +25,9 @@ int main(void)
     if(ca == 'C')
     {
         if(cb == 'B')
-        printf("%d %d %d",a ,b ,c);
+        printf("%d %d %d",c ,b ,a);
         if(cc == 'B')
-        printf("%d %d %d" , a ,c ,b);
+        printf("%d %d %d" , c ,a ,b);
     }
 
 
