@@ -9,7 +9,23 @@ int main(void)
     printf("by orther ");
     scanf("%c %c %c ", &ca, &cb ,&cc);
 
-    
-
+    if(a > b)
+    {
+        temp = a
+        a =b
+        b =temp
+    }
+    if(c<b)
+    {
+        if(c<a)
+        {
+            temp = a
+            a =c
+            c=temp
+            temp =c
+            c = b
+            b =temp
+        }
+    }
 
 }
