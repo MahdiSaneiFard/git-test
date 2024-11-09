@@ -17,23 +17,23 @@ int main(void)
         b = temp;
         if(a > c)
         {
-        temp = a;
-        a = c;
-        c = temp;
+            temp = a;
+            a = c;
+            c = temp;
         }
         if(b > c)
         {
-            temp = a;
-            a = b;
-            b = temp;
+            temp = b;
+            b = c;
+            c = temp;
         }
 
     }
     if(b > c)
     {
-        temp = a;
-        a = b;
-        b = temp;
+        temp = b;
+        b = c;
+        c = temp;
     }
     //printing the vailous
     int A = a;
