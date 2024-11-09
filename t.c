@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <sting.h>
 
 int main(void)
 {
@@ -8,5 +9,6 @@ int main(void)
     printf("by orther ");
     scanf("%c %c %c ", &ca, &cb ,&cc);
     
+
 
 }
