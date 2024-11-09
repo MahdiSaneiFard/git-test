@@ -11,7 +11,10 @@ int main(void)
     scanf("%c %c %c ", &ca, &cb ,&cc);
     if(ca == 'A')
     {
-        if(cb == 'B)
+        if(cb == 'B')
+        {
+            
+        }
     }
 
 }
