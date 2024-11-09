@@ -12,9 +12,8 @@ int main(void)
     if(ca == 'A')
     {
         if(cb == 'B')
-        {
-            
-        }
+        printf("%d %d %d",a ,b ,c)
+        if(cc == 'B')
     }
 
 }
