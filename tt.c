@@ -16,20 +16,13 @@ int main(void)
         temp = a;
         a = b;
         b = temp;
-    }
-    if(c < b)
-    {
-        if(c < a)
+        if(a > c)
         {
-            temp = a;
-            a = c;
-            c = temp;
-            temp = c;
-            c = b;
-            b = temp;
+        temp = a;
+        a = c;
+        c = temp;
         }
     }
-    goto oii;
     //printing the vailous
     int A = a;
     int B = b;
