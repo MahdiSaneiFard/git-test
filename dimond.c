@@ -21,5 +21,20 @@ int main(void)
         printf("\n");
 
     }
+    for(int i = num; i >= 1; i -= 2)
+    {
+        for(int u = (num-i)/2; u >=0; u--)
+        {
+            printf(" ");
+        }
+        for(int k = 1; k < i; k++)
+        printf("*");
+        {
+            printf("*");
+        }
+
+        printf("\n");
+
+    }
 
 }
