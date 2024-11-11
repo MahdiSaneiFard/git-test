@@ -17,7 +17,13 @@ int main(void)
         {
             printf("*");
         }
-        for(int ll = )
+        for(int ll = num-i+1;ll >= 0; ll-=2)
+        printf(" ");
+        for(int k = 1; k < i; k++)
+        printf("*");
+        {
+            printf("*");
+        }
 
         printf("\n");
 
