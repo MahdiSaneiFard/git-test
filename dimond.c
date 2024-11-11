@@ -15,6 +15,7 @@ int main(void)
         while(con < i)
         {
             printf("*");
+            con++;
         }
         printf("\n");
 
