@@ -12,11 +12,8 @@ int main(void)
         {
             printf(" ");
         }
-        while(con < i)
-        {
-            printf("*");
-            con++;
-        }
+        for(int k = num; k <= 1; k -= 2)
+        printf("*");
         printf("\n");
 
     }
