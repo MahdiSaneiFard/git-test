@@ -12,12 +12,10 @@ int main(void)
         {
             printf(" ");
         }
-        do
+        while(con < i)
         {
             printf("*");
-            con++;
-
-        }while(con <= i);
+        }
         printf("\n");
 
     }
