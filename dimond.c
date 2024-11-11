@@ -8,11 +8,12 @@ int main(void)
     scanf("%i",&num);
     for(int i = 1; i <= num; i += 2)
     {
-        for(int u = num - i; u > 0; u--)
+        for(int u = num - i; u >=0; u--)
         {
             printf(" ");
         }
-        for(int k = num; k <= 1; k = k - 2)
+        for(int k = 1; k < i; k++)
+        printf("*");
         {
             printf("*");
         }
