@@ -3,6 +3,7 @@
 int main(void)
 {
     int num;
+    int con = 0;
     printf("num ");
     scanf("%i",&num);
     for(int i = 1; i <= num; i += 2)
@@ -14,8 +15,9 @@ int main(void)
         do
         {
             printf("*");
+            con++;
 
-        }while()
+        }while(con <= i);
 
     }
 
