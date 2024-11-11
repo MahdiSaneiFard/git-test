@@ -39,8 +39,13 @@ int main(void)
         {
             printf("*");
         }
-        for(int ll = num-i;ll > 0; ll-=1)
+        for(int ll = 0;ll < num-i; ll+=1)
         printf(" ");
+        for(int k = 1; k < i; k++)
+        printf("*");
+        {
+            printf("*");
+        }
 
         printf("\n");
 
