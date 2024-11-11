@@ -17,15 +17,7 @@ int main(void)
         {
             printf("*");
         }
-        for(int u = (num-i)/2; u >=0; u--)
-        {
-            printf(" ");
-        }
-        for(int k = 1; k < i; k++)
-        printf("*");
-        {
-            printf("*");
-        }
+        for(int ll = )
 
         printf("\n");
 
