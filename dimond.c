@@ -24,9 +24,7 @@ int main(void)
         {
             printf("*");
         }
-
         printf("\n");
-
     }
     for(int i = (num-2); i >= 1; i -= 2)
     {
@@ -46,9 +44,7 @@ int main(void)
         {
             printf("*");
         }
-
         printf("\n");
-
     }
 
 }
