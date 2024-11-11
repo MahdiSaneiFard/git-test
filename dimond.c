@@ -6,7 +6,6 @@ int main(void)
     int con = 0;
     printf("num ");
     scanf("%i",&num);
-    num 
     for(int i = 1; i <= num; i += 2)
     {
         for(int u = (num-i)/2; u >=0; u--)
