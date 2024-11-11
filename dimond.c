@@ -12,7 +12,7 @@ int main(void)
         {
             printf(" ");
         }
-        for(int k = num; k <= 1; k = k2)
+        for(int k = num; k <= 1; k = k - 2)
         {
             printf("*");
         }
