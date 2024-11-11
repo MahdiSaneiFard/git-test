@@ -39,6 +39,8 @@ int main(void)
         {
             printf("*");
         }
+        for(int ll = num-i;ll > 0; ll-=1)
+        printf(" ");
 
         printf("\n");
 
