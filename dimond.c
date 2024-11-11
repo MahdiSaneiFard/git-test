@@ -8,8 +8,15 @@ int main(void)
     for(int i = 1; i <= num; i += 2)
     {
         for(int u = num -i; u > 0; u--)
-        printf(" ");
-        
+        {
+            printf(" ");
+        }
+        do
+        {
+            printf("*");
+
+        }while()
+
     }
 
 }
