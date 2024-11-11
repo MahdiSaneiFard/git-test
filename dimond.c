@@ -21,7 +21,7 @@ int main(void)
         printf("\n");
 
     }
-    for(int i = num; i >= 1; i -= 2)
+    for(int i = (num-2); i >= 1; i -= 2)
     {
         for(int u = (num-i)/2; u >=0; u--)
         {
