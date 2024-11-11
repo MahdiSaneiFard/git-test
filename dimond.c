@@ -12,8 +12,11 @@ int main(void)
         {
             printf(" ");
         }
-        for(int k = num; k <= 1; k -= 2)
-        printf("*");
+        for(int k = num; k <= 1; k = k2)
+        {
+            printf("*");
+        }
+
         printf("\n");
 
     }
