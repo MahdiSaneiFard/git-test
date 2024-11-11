@@ -18,10 +18,8 @@ int main(void)
             printf("*");
         }
 
-        for(int u = (num-i)/2; u >=0; u--)
-        {
-            printf(" ");
-        }
+        printf("\n");
+
     }
     for(int i = (num-2); i >= 1; i -= 2)
     {
