@@ -9,8 +9,7 @@ int main(void)
     {
         for(int u = num -i; u > 0; u--)
         printf(" ");
-        for(int k = )
-        printf("\n");
+        printf("*");
     }
 
 }
