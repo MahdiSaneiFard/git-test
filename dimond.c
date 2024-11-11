@@ -5,9 +5,11 @@ int main(void)
     int num;
     printf("num ");
     scanf("%i",&num);
-    for(int i = 1; i <= num; i++)
+    for(int i = 1; i <= num; i += 2)
     {
-        
+        for(int u = num -i; u > 0; u--)
+        printf(" ");
+        for(int k)
         printf("\n");
     }
 
