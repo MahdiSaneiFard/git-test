@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void print(void);
+void print(int a);
 int main(void)
 {
     int a;
@@ -10,6 +10,6 @@ int main(void)
 }
 void print(int a)
 {
-    for(int i ; ; )
+    for(int i=1 ; a>=i ; i++ )
     printf("hello, world!");
 }
