@@ -3,12 +3,10 @@
 ;
 int main(void)
 {
-    int a,b;
+    int a;
     scanf("%d", &a);
-    for(int i= 1; a%i==0 ;i++ ){
-    printf("%d\n", i);
-
-
-
+    for(int i= 1; a%i==0 ;i++ )
+    {
+        printf("%d\n", i);
     }
 }
