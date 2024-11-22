@@ -6,6 +6,7 @@ int main(void)
     int
     scanf("%d%d", &a&b);
     while(){
-     if()
+     if(a\i==0
+     )
     }
 }
