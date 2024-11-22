@@ -2,6 +2,8 @@
 
 int main(void)
 {
+
+    scanf("%d", &a);
     
 }
 
