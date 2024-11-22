@@ -11,6 +11,7 @@ int main(void)
     do{
         scanf("%d%d", &a,&b);
     }while(a<=0 || b<=0);
+    
     if(a < b)
     {
         min = a;
