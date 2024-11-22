@@ -10,21 +10,24 @@ int main(void)
     scanf("%d%d", &a,&b);
     if(a < b)
     {
-        a = mall;
-        b = max
+        mall= a;
+        max = b;
     }
     else
     {
-        b = mall;
-        a = max;
+        mall = b;
+        max = a;
     }
     for(int i = mall; i >= 1; i--)
     {
         if(max%i == 0)
         {
-            pirntf("%d",mall);
-            break;
+            if(mall%i == 0)
+            {
+                printf("%d",i);
+                break;
+            }
         }
-        
+
     }
 }
