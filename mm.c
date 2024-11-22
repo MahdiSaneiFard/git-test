@@ -5,8 +5,10 @@ int main(void)
 {
     int
     scanf("%d%d", &a&b);
-    while(){
-     if(a\i==0
-     )
+
+     if(a%b==0)
+     {
+        printf("%d", )
+     }
     }
 }
