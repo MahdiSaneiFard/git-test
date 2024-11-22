@@ -1,13 +1,15 @@
 #include <stdio.h>
 
-int print(void);
+void print(void);
 int main(void)
 {
-    print();
+    int a;
+    scanf("%d", &a);
+    print(a);
 
 }
-int print(void)
+void print(int a)
 {
+    for(int i ; ; )
     printf("hello, world!");
-    return 0;
 }
