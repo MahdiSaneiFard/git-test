@@ -8,8 +8,3 @@ int main(void)
     print(a);
 
 }
-void print(int a)
-{
-    for(int i=1 ; a>=i ; i++ )
-    printf("hello, world!");
-}
