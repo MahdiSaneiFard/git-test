@@ -18,7 +18,7 @@ int main(void)
         min = b;
         max = a;
     }
-    for(int i = mall; i >= 1; i--)
+    for(int i = min; i >= 1; i--)
     {
         if(max%i == 0)
         {
