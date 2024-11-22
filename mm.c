@@ -1,12 +1,13 @@
 #include <stdio.h>
 
-void print(void);
+int print(void);
 int main(void)
 {
     print();
 
 }
-void print(void)
+int print(void)
 {
     printf("hello, world!");
+    return 0;
 }
