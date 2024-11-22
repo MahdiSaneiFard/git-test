@@ -8,10 +8,9 @@ int main(void)
     int mall;
     int a;
 
-    do
-    {
+    do{
         scanf("%d%d", &a,&b);
-    }while(a<0||b<0);
+    }while(a<=0 || b<=0);
     if(a < b)
     {
         min = a;
