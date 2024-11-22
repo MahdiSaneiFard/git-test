@@ -11,10 +11,14 @@ int main(void)
     if(a < b)
     {
         a = mall;
+        b = max
     }
     else
-    b = mall;
-    for(int i = 1; i <= a; i++)
+    {
+        b = mall;
+        a = max;
+    }
+    for(int i = mall; i <= a; i++)
     {
         if(a%i == 0)
         {
