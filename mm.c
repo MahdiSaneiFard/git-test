@@ -5,13 +5,13 @@ int main(void)
 {
     int b;
     int max;
-    int mall;
+    int min;
     int a;
 
     do{
         scanf("%d%d", &a,&b);
     }while(a<=0 || b<=0);
-    
+
     if(a < b)
     {
         min = a;
