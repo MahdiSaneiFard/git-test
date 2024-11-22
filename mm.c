@@ -3,8 +3,8 @@
 ;
 int main(void)
 {
-    int
-    scanf("%d%d", &a&b);
+    int a,b;
+    scanf("%d%d", &a,&b);
     for(int i= 1; a%i==0 ;i++ ){
     printf("%d\n", i);
 
