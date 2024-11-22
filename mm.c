@@ -11,6 +11,7 @@ int main(void)
     {
         if(a%i == 0)
         {
+            
 
         }
     }
