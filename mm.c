@@ -18,13 +18,13 @@ int main(void)
         b = mall;
         a = max;
     }
-    for(int i = max; i >= 1; i--)
+    for(int i = mall; i >= 1; i--)
     {
-        if( == 0)
+        if(max%i == 0)
         {
-
-
-
+            pirntf("%d",mall);
+            break;
         }
+        
     }
 }
