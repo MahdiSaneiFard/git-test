@@ -10,19 +10,19 @@ int main(void)
     scanf("%d%d", &a,&b);
     if(a < b)
     {
-        mall= a;
+        min = a;
         max = b;
     }
     else
     {
-        mall = b;
+        min = b;
         max = a;
     }
     for(int i = mall; i >= 1; i--)
     {
         if(max%i == 0)
         {
-            if(mall%i == 0)
+            if(min%i == 0)
             {
                 printf("%d",i);
                 break;
