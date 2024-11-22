@@ -18,11 +18,11 @@ int main(void)
         b = mall;
         a = max;
     }
-    for(int i = mall; i <= a; i++)
+    for(int i = max; i >= 1; i--)
     {
-        if(a%i == 0)
+        if( == 0)
         {
-            
+
 
 
         }
