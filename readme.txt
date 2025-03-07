@@ -1,1 +1,3 @@
-hello local change
+<<<<<<< HEAD
+hello 
+how are you in github
